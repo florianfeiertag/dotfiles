@@ -1,0 +1,6 @@
+2021/03/14-21:34:12.779 1d84 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\Local Storage\leveldb/MANIFEST-000001
+2021/03/14-21:34:12.780 1d84 Recovering log #1326
+2021/03/14-21:34:12.781 1d84 Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\Local Storage\leveldb/001326.log 
+2021/03/14-21:58:13.300 2898 Level-0 table #1334: started
+2021/03/14-21:58:13.307 2898 Level-0 table #1334: 22063 bytes OK
+2021/03/14-21:58:13.309 2898 Delete type=0 #1326

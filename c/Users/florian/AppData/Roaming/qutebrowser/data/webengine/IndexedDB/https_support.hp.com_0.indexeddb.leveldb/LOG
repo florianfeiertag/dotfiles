@@ -1,0 +1,5 @@
+2021/01/20-08:47:01.371 3ea0 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_support.hp.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/20-08:47:13.101 3694 Level-0 table #5: started
+2021/01/20-08:47:13.107 3694 Level-0 table #5: 984 bytes OK
+2021/01/20-08:47:13.109 3694 Delete type=0 #3
+2021/01/20-08:47:13.109 3694 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

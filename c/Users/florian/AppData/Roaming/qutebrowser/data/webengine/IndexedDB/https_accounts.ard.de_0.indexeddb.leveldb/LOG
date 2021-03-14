@@ -1,0 +1,15 @@
+2021/01/04-10:57:18.855 1f68 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_accounts.ard.de_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/04-10:57:18.855 1f68 Recovering log #6
+2021/01/04-10:57:18.855 1f68 Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_accounts.ard.de_0.indexeddb.leveldb/000006.log 
+2021/01/04-11:01:00.476 424c Level-0 table #11: started
+2021/01/04-11:01:00.479 424c Level-0 table #11: 6666 bytes OK
+2021/01/04-11:01:00.481 424c Delete type=0 #6
+2021/01/04-11:01:00.481 424c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/04-11:01:00.481 424c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x01C\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00C\x00E\x00v\x00A\x00_\x00f\x00V\x00G\x00N\x00M\x00R\x00c\x00S\x009\x00F\x00-\x00U\x00b\x00a\x00a\x00a\x000\x00y\x000\x00q\x00B\x00D\x00U\x00M\x00l\x00h\x009\x000\x00:\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]' @ 121 : 1
+2021/01/04-11:01:00.481 424c Compacting 1@1 + 1@2 files
+2021/01/04-11:01:00.483 424c Generated table #12@1: 32 keys, 960 bytes
+2021/01/04-11:01:00.483 424c Compacted 1@1 + 1@2 files => 960 bytes
+2021/01/04-11:01:00.484 424c compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/04-11:01:00.484 424c Delete type=2 #8
+2021/01/04-11:01:00.484 424c Delete type=2 #11
+2021/01/04-11:01:00.485 424c Manual compaction at level-1 from '\x00\x03\x01\x02\x01C\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00C\x00E\x00v\x00A\x00_\x00f\x00V\x00G\x00N\x00M\x00R\x00c\x00S\x009\x00F\x00-\x00U\x00b\x00a\x00a\x00a\x000\x00y\x000\x00q\x00B\x00D\x00U\x00M\x00l\x00h\x009\x000\x00:\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]' @ 121 : 1 .. (end); will stop at (end)

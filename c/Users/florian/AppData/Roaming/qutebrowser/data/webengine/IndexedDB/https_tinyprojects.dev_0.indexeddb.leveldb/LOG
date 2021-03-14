@@ -1,0 +1,5 @@
+2021/03/11-13:08:09.162 43d0 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_tinyprojects.dev_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/11-13:09:50.924 4098 Level-0 table #5: started
+2021/03/11-13:09:50.928 4098 Level-0 table #5: 1940 bytes OK
+2021/03/11-13:09:50.930 4098 Delete type=0 #3
+2021/03/11-13:09:50.931 4098 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

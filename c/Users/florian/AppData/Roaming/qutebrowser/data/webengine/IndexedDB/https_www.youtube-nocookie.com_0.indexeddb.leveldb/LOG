@@ -1,0 +1,15 @@
+2021/02/21-22:09:26.111 9ec Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/21-22:09:26.111 9ec Recovering log #55
+2021/02/21-22:09:26.111 9ec Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/000055.log 
+2021/02/21-22:09:56.946 224 Level-0 table #60: started
+2021/02/21-22:09:56.953 224 Level-0 table #60: 553 bytes OK
+2021/02/21-22:09:56.953 224 Delete type=0 #55
+2021/02/21-22:09:56.954 224 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/21-22:09:56.954 224 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x16\x00y\x00t\x00-\x00i\x00d\x00b\x00-\x00t\x00e\x00s\x00t\x00-\x00d\x00o\x00-\x00n\x00o\x00t\x00-\x00u\x00s\x00e' @ 259 : 1
+2021/02/21-22:09:56.954 224 Compacting 1@1 + 1@2 files
+2021/02/21-22:09:56.956 224 Generated table #61@1: 17 keys, 511 bytes
+2021/02/21-22:09:56.956 224 Compacted 1@1 + 1@2 files => 511 bytes
+2021/02/21-22:09:56.956 224 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/21-22:09:56.956 224 Delete type=2 #57
+2021/02/21-22:09:56.956 224 Delete type=2 #60
+2021/02/21-22:09:56.957 224 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x16\x00y\x00t\x00-\x00i\x00d\x00b\x00-\x00t\x00e\x00s\x00t\x00-\x00d\x00o\x00-\x00n\x00o\x00t\x00-\x00u\x00s\x00e' @ 259 : 1 .. (end); will stop at (end)

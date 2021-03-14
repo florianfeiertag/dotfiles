@@ -1,0 +1,54 @@
+
+optional for WinXP32:
+
+
+  a) to stop acpi-embedded-controler from spamming system.log
+     switch to acpi-embedded-controler with NoLog-Option
+     "acpiecnl.sys" instead of original "acpiec.sys"
+
+     double click on:  instecnl.bat
+     double click on:  acpiecLogOff.reg  
+     confirm the registry change and reboot.
+
+     Attention: now no error is reported from acpiec!
+
+
+  b) to switch back to original embedded-controler "acpiec.sys"
+
+       double click on:  acpiecLogOn.reg   
+       confirm the registry change and reboot.
+
+     c:\windows\system32\drivers\acpiecnl.sys  remains, 
+     don't mind or delete manually if you like.
+
+
+
+     DE: >>>>>>>>>>>>>>> optional für WinXP32:
+     DE:
+     DE: a)Um den acpi-embedded-controler davon abzuhalten das system.log
+     DE:   mit Meldungen zu überfluten, wechsele zum acpi-embedded-controler
+     DE:   mit NoLog-Option.
+     DE: 
+     DE:   "acpiecnl.sys" anstatt des originalen "acpiec.sys"
+     DE:   benutzen und das geht so:
+     DE: 
+     DE:   doppelklick auf:  instecnl.bat
+     DE:   doppelklick auf:  acpiecLogOff.reg  
+     DE: 
+     DE:   Wechsel bestätigen und Neustart des Notebook
+     DE:
+     DE: Achtung: Fehler werden jetzt nicht mehr vom acpiec
+     DE:          in das system.log eingetragen
+     DE:
+     DE:  b) um wieder zum originalen embedded-controler "acpiec.sys"
+     DE:     zurückzukehren:
+     DE:     doppelklick auf:  acpiecLogOn.reg   
+     DE:     Wechsel bestätigen und Neustart des Notebook.
+     DE:
+     DE:  Die Datei: c:\windows\system32\drivers\acpiecnl.sys 
+     DE:  bleibt bestehen, macht aber nichts, 
+     DE:  nach Belieben von Hand löschen
+
+
+ instecnl.bat=  copy acpiecnl.sys %WINDIR%\System32\drivers
+	 

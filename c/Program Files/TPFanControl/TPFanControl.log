@@ -1,0 +1,20 @@
+[07.10.2020 17:55:39] Current Config:
+[07.10.2020 17:55:39]   Active= 3, Cycle= 5, FanBeep= 0 0, MaxReadErrors= 10
+[07.10.2020 17:55:39]   IconLevels= 70 80 90, NoExtSensor= 0, Lev64Norm= 1
+[07.10.2020 17:55:39]   Log2File= 1, Log2csv= 0, ShowAll= 0, IconColorFan= 1
+[07.10.2020 17:55:39]   Levels= 75°C -> 0,  80°C -> 1,  85°C -> 3,  90°C -> 7,  95°C -> 0x80
+[07.10.2020 17:55:39]   Levels2= 22°C -> 0,  33°C -> 1,  38°C -> 2,  44°C -> 3,  55°C -> 7,  66°C -> 64,  77°C -> 0x80
+[07.10.2020 17:55:39]   SensorOffset1-12= 0 0 0 0 0 0 0 0 0 0 0 0 °C
+[07.10.2020 17:55:39]   IgnoreSensors= no5, ProcessPriority= 2, IconCycle= 1
+[07.10.2020 17:55:39]   BluetoothEDR= 1, NoWaitMessage= 1, ShowBiasedTemps= 1
+[07.10.2020 17:55:39]   ManModeExit= 80, SecWinUptime= 0, SecStartDelay= 0
+
+[07.10.2020 17:55:39] Windows uptime since boot 19747 sec., SecWinUptime= 0 sec.
+[07.10.2020 17:55:40] Change Mode from BIOS->Manual, setting fan speed
+[07.10.2020 17:55:40] Fan: 0x80 / Switch: 80°C (55; 0; 0; 129; 0; 58; 0; 0; 80; 0; 0; 0;)
+[07.10.2020 17:55:40] Manual: Set fan control to 0x00, Result: OK
+[07.10.2020 21:34:21] Fan: 0x80 / Switch: 80°C (49; 0; 0; 129; 0; 58; 0; 144; 80; 0; 0; 0;)
+[07.10.2020 21:34:21] Manual: Set fan control to 0x00, Result: OK
+[07.10.2020 21:59:31] Fan: 0x00 / Switch: 80°C (64; 0; 0; 129; 0; 58; 0; 0; 80; 0; 0; 0;)
+[07.10.2020 21:59:31] On close: Set fan control to 0x80, Result: OK
+[07.10.2020 21:59:31] Exiting ProcessDialog

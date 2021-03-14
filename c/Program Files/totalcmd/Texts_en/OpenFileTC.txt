@@ -1,0 +1,265 @@
+Open File shell for TC, ver. 1.8c BETA (1.8.5.31)
+
+-----------------------------------------------------------------------
+
+		     ATTENTION
+
+	         This version is BETA!
+   It may be  unstable  and uncomfortable while working!
+    If you need stability and comfort, then please use
+            stable releases of OpenFileTC!
+           The last stable release is 1.8b.
+
+http://www.antoon-inc.com/download/oftc/util_openfiletc_v1.8b.rar
+
+-----------------------------------------------------------------------
+
+This utility allows you to assign any application installed on your system to open
+various filetypes via Total Commander. As a result, whenever you hit F4 in 
+Total Commander your file will be opened in the application you selected earlier
+and which you consider to be the most appropriate for viewing or editing that filetype.
+
+Install application:
+  - open Total Commander
+  - unpack this archive to some folder
+  - run OpenFileTC.exe. Application will register itself as an editor for Total Commander.
+  - restart Total Commander.
+  - enjoy!
+
+Work with Open File shell for TC:
+  - run Total Commander
+  - press F4 on file(s) which you need to edit
+  - select item "Another program" and find needed editor. Application will remember your 
+    choice and next time open this editor without Open File TC window.
+
+Application is freeware.
+
+Copyright © Antoon_Inc company, 2004-2008. All Rights Reserved.
+You can find me here: oftc@antoon-inc.com, ICQ 207-298-917
+
+Application's history:
+
+Version 1.8c BETA (April 15, 2008) (adding beauties)
+  Added. Now you can set transparency for the main window and all other windows.
+  Added. Now you can disable bacground for the main window (make background fully transparent)
+  Added. If you add manually "UseInactivePanel=1" parameter for some editor, then this 
+         editor will get its files list to edit from both panels - active and not active.
+  Added. If you add manually "SendOnlyThisFilesCount=N" parameter for some editor (N is 
+         a number more than zero), then this editor will edit files with supported extensions
+	 only if you select N files in Total Commander.
+  Fixed. A lot of small mistakes were founded and fixed.
+
+Version 1.8b (March 11, 2008) (fixing old troubles)
+  Added. New param "/force" was added to OFTC command line - force start OFTC
+  Added. A check box "Show tool bar" is added to the OFTC setup window
+  Added. A new item in the popup menu - Recognize type as supported / 
+         Remove type from supported
+  Added. If you add manually "OpenAtOnceForAnyExt=1" parameter to OpenFileTC.ini for some 
+         editor, then strings "ext_OpenAtOnce=1" can be erased: in this case, 
+	 all extensions will be opened directly in this editor
+  Fixed. A lot of changes in the procedures of loading editors and saving editors: read-write
+         operations count is now twice less than it was before.
+  Fixed. Common command line for all editor's extensions is now works correctly
+  Fixed. There was an error while opening files with Unicode symbols in its names
+         (like Japanese or Chinese symbols) - OFTC doesn't opens them, but starts in
+	 Setup mode
+  Fixed. Trouble with F4 on exe-files: if user press F4 twice on the same EXE, then 
+         OFTC always asks to add this EXE to the editors list. Now OFTC don't ask if 
+	 this editor is already in the list.
+  Fixed. Trouble with Edit Extensions window resizing is removed
+  Fixed. Trouble with TC Plugin Manager: OpenFileTC doesn't opens wincmd.ini if its path 
+         contains blanks (because this file was passed without quotes)
+  Fixed. Select language window was changed a little
+  Fixed. OFTC works wery bad with its command line - it was impossible to start
+         OFTC on another ini-file. "/I=" parameter doesn't works correctly.
+  Fixed. Trouble with FTPDrive application is solved. If user wanted to edit file on
+         the virtual drive of FTPDrive, then file size is shown as zero (becomes zero),
+	 and editors couldn't find this file to edit. Notice: file size don't changed 
+	 physically - it was only shown as this file has only zero bytes.
+  Fixed. If OFTC was opened with force call on extension, which this editor must opens 
+         immediately, then "Always use..." checkbox becomes switched off
+  Fixed. Some other changes in the popup menu
+  Fixed. Sometimes, OFTC may raise Runtime error after user selects editor
+  Fixed. Small changes and fixed for the OFTC first start (new user)
+  
+Version 1.8a  (November 1, 2007) (raising speed of application)
+  Added. Now application supports %U3_APP_DATA_PATH%, %U3_DEVICE_EXEC_PATH%, 
+         %U3_HOST_EXEC_PATH% environment variables
+         (these variables are avaliable for U3 applications)
+  Added. Toolbar with buttons was added
+  Added. (HOT!!!) Now OpenFileTC can edit files from searching result, and also you 
+         can edit files in the "Ctrl+B" files display mode
+  Added. Now you can force open OpenFileTC window using the Escape key
+  Added. If you have a default editor, and it is the preferred editor, 
+         then it will be selected if OpenFileTC's window opens
+  Added. Due to the internal code changes, application's work is faster. It's strongly
+         recommended to update OpenFileTC for steady users.
+  Added. Option was added to the .lng-file:
+         [Misc] 
+	 5=[Here is the link to the discussing forum in native language of translator]
+  Fixed. After restart, all deleted editors becomes not erased.
+  Fixed. DisableCallsCount=1 now works correctly. If user starts editor on extension 
+         without OpenFileTC window, then OpenFileTC calculate calls count of this 
+	 editor without making attention to the DisableCallsCount option.
+  Fixed. When you change name of editor, its name doesn't changed in the main window
+  Fixed. If you have assigned some editor for current extension, and this editor must 
+         be opened directly - without OpenFileTC window, and if you have made a force
+	 call of OpenFileTC, then this option becomes disabled for this extension
+  Fixed. When you opens file directly in needed editor (without OpenFileTC window), 
+         then sometimes you may have a critical error
+  Fixed. The command /L=%L didn't work
+
+Version 1.7c  (July 15, 2007) (fixing bugs, adding abilities)
+  Added. Now you can set some editor as a default editor for each new extension. It is
+         very useful if you works very hard with a lot of text files which have different
+	 extensions
+  Added. Option to enable / disable adding executables via F4 on them
+  Fixed. If application is called using hot key, then extenson haven't added to the 
+         list of supported extensions
+  Added. Hidden option [Main] DisableCallsCount=1 - disabling the calls counting
+  Added. Flags to open editors: maximize / minimize / normal
+  Added. F4 on exe-files - asks user to add it to the list of editors
+  Added. English now is the embedded language
+  Fixed. "Lost applications" - if user set the right way to the lost executable, 
+         then application stay at the "Lost applications" section, ant its icon do not changed
+  Fixed. Wrong OpenFileTC's action with the "Always use..." check box - application 
+         do not always obey for user :)
+  Fixed. When user sent to the OpenFileTC a /I= param, then application lost list of selected files
+  Added. Now user can set the common command line for each extension of the executable 
+         (now this option is not so good, will be fixed lately)
+  Added. Application read the environment variable PATH
+  Added. Applications Notepad, Wordpad, MSPaint are added with the first start of OpenFileTC
+  Fixed. If strings have tsome environment variables, then OpenFileTC might work with them not 
+         correctly.
+  Fixed. Whtn user selected the language (at the first start), then he might select wrong language - 
+         the mouse position was analysed not correctly
+  Fixed. A lot of small fixed in the editing extensions window 
+  Added. Now OpenFileTC supports %1 (it is the same as the %FullFileName%)
+  Added. The "Hot key" button in the executables setup window
+  Fixed. It was impossible to remove a hot key, only change it to another
+  Added. It is possible to change separator between the extensions in the ini-file of the OpenFileTC 
+        (see the English.lng file)
+  Added. Application remembers its size in the setup  mode and in the work mode separately
+  Added. If user forced call OpenFileTC, then OpenFileTC select that executable which must open selected
+         file with the normal OpenFileTC calling.
+  Added. Now user can set the "Always use..." check box state at the next OpenFileTC start - always on, 
+         always off or by the last state
+  Fixed. Now supported extensions in the executable's hint are on the several strings
+
+Version 1.7b  (January 27, 2007) (preparing app for Total Commander v7.0)
+ 1) For Total Commander v7.0 and higher: application getting list of files without 
+    using clipboard. ATTENTION: this option works only at the short or full view 
+    of TC's file list. Partially, OpenFileTC doesn't works if using thumbnails view.
+    For Total Commander v6.5x and earlier: work with clipboard becomes more good.
+    But it's recommended to change version of Total Commander to the 7.0!
+ 2) If OpenFileTC starts without parameters, then it opens in the setup mode.
+ 3) Now Open File TC can starts on another Ini-file. 
+    Command line: OpenFileTC.exe /I="<path to the ini-file>"
+ 4) Now app supports the following tags:
+      %RootDrive% - drive letter with the colon, where OpenFileTC starts from ("C:", "D:")
+      %COMMANDER_DRIVE% -  drive letter with the colon, where Total Commander starts from
+ 5) Now Open File shell for TC works correctly with paths, where strings "..\" 
+    (up one level) are exists.
+ 6) Now OpenFileTC forced start can be setted using one of three switches (Caps Lock, 
+    Num Lock, Scroll Lock) and/or mouse position (one screen corner)
+ 7) Now you can set another icon for each Add application.
+ 8) Fixed: of default application was removed from computer, then OpenFileTC doesn't react
+    when user press F4 on files. Now OpenFileTC main window opens. 
+ 9) Fixed: files with null extension sometimes lost their option "Always open with selected..." 
+10) Now application get full name of Total Commanders' Ini-file name using environment 
+    variable %COMMANDER_INI%
+11) Fixed: when new application with wrong exe header was Add to the list of avaliable apps, 
+    then Open File TC raised an error Invalid Pointer Operation. 
+12) Help-file is updated, you can download it using this link: http://www.antoon-inc.com/oftc/
+13) A lot of small fixes and addons.
+
+Version 1.7a (August 15, 2006) (some improvements, raising comfort)
+ 1) Applications are starts faster if user sets the "Always use..." options.
+ 2) Now icons are load in the separate thread, so Open File TC startup is faster
+ 3) New option "Show tool tips" 
+ 4) Fonts for main window and dialog windows are separated
+ 5) New: now you can sort apps by calling rate. Also all apps have their calling rate statistic.
+ 6) Now Open File TC don't restart when you change some settings.
+ 7) Add additional points to the popup menu, they allows to change application's kind quickly.
+
+Version 1.6  (July 17, 2006) (fixing bugs)
+ 1) Fixed: now complex commend line sends to the selected application correctly
+ 2) Fixed: file from archive is opened from the temp folder.
+ 3) Fixed: run type lost when a list of supported extensions changed.
+ 4) Fixed: hot key sets correctly
+ 5) New: there are four variants of interface. All variants show icons.
+ 6) Fixed: in the dialog box for selected application, there can't be opened 
+    "Open File" dialog box when press on "..." button.
+ 7) Fixed a lot of error with the relative paths.
+ 8) New: two useful check box in the Open File TC setup window
+ 9) Fixed: now only selected files are open, without file under cursor (if this file is not selected).
+10) New: popup window has two new items: Open in <App name> and Open but don't spy for executable
+11) Lots of other fixes and overpatchings.
+
+Version 1.5  (May 8, 2006) (translation into Unicode strings)
+ 1) Application is translated into Unicode. Now application shows correctly all languages
+    supported Unicode. Attention: language files of previous versions (less than 1.5) may shows 
+    in application incorrectly. Its recommended to download native language file as soon 
+    as it possible, or convert lng-files to Unicode by yourself.
+    http://dbcd.narod.ru/openfiltc_en.html
+ 2) Fixed: application worked incorrectly with files which extensions in upper case.
+ 3) Add: now each application has its own hot-key. Following 
+    keys are reserved by Open File TC: 0..9, Enter, Esc
+ 4) Fixed: Open File TC doesn't works with no-extension files. If you want
+    to add this file type to some editor, you need to add %nil% extension
+    to the list of supported extensions.
+ 5) Fixed a error with the clipboard. Now Open File TC doesn't changes clipboard.
+ 6) Popup menu has new item - <Application name> setup. This item allows to change
+    application's running type.
+ 7) Other cosmetic changes.
+
+Version 1.4. (February 23, 2006) (some cosmetic changes)
+ 1) Program now supports these tags:
+    %COMMANDER_PATH%    - Full path to the folder of Total Commander
+    %WinDir%            - Windows folder
+    %ProgramFiles%      - Program Files folder
+    %OpenFileTC_Path%   - folder of OpenFileTC
+    All there tags can be used in any paths of OpenFileTC Ini-file. Parameters are 
+    replaced by paths WITHOUT slash at the end.
+    ATTENTION: %COMMANDER_PATH% param works only if OpenFileTC is started under Total Commander!
+    Otherwise program may works incorrectly with these paths.
+ 2) Fixed errors when program works incorrectly with Ini-file. Programs might have two or more 
+    same extensions. Also sometimes program might run not that application as expected.
+ 3) Extensions editing window: extension now sorts by alphavite.
+ 4) Fixed some wrongs with tooltip for programs.
+ 5) Now program show 32-bit icons correctly. Also program don't use any more folder "Icons" 
+    (this folder contained all icons from programs).
+ 6) Now you can separate extensions in INI-file by comma, example: "SupportedExts=pas, bat, txt"
+ 7) Now multi-using is the optional setting. Toggled off by default.
+ 8) Other small changes, addings and fixings.
+
+Version 1.3. (February 06, 2006) (program becomes more flexible)
+  1) Now all preferred program can be selected by the numbers 1..9. In other case, when you press 1 then first preferred program opens.
+  2) Now program use different Ini-files for each user.
+  3) For force opening program you need to turn on SCROLL LOCK button.
+  4) Popup menu has new item - "Setup OpenFileTC". It opens setup window of program.
+  5) "Find EXE" item was discarded.
+  6) Now program searching path to TC Ini-file correctly. Special thanks to mozers™ & Shura and Vladimir Serdyuk.
+  7) Now you can edit two and more files at one time. Editor for these files is determined by the file selected with cursor.
+  8) Fixed: now after editing a file from archive, TC asks you to repack this archive.
+
+Version 1.2 (October 15, 2005) (adding abilities for program setup)
+  1) New toggle item "Show/Hide icons", it allows to force program loading.
+  2) New toggle item "As list/As icons", it allows to change program view style
+  3) Now setup items can be removed from program. You need to press 
+     right mouse button on some setup element and choose in popup menu 
+     item "Remove Element".
+
+Version 1.1 (October 05, 2005) (fix marked bugs, increasing of program stability and flexibility)
+  1) Fixed a lot of bugs, which can be caused if program runned from
+     "read-only" place.
+  2) Programs now sort by name.
+  3) Add the possibility to set special command line for each program extension.
+     Tags to use:
+     %FullFileName% - full file name
+     %FileName%     - file name only, no path, no extension, no point before extension.
+     %FileExt%      - file extension only, no point before extension
+  4) Other bugs fixed.
+
+Version 1.0 (October 02, 2005) (first program publication)
+  Program birth :)

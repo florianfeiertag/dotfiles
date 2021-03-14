@@ -1,0 +1,23 @@
+Open File shell for TC, ver. 1.8b beta
+
+Liste verfügbarer Tags und Umgebungsvariablen, die Du in den Pfaden verwenden kannst.
+Tags müssen so wie in dieser Datei gezeigt geschrieben werden.
+Vergiss das Prozentzeichen (%) nicht.
+
+!!! Alle Tags werden durch Strings OHNE Backslash am Ende ersetzt.
+
+%COMMANDER_PATH%	    - voller Name des Ordners von Total Commander
+%WINDIR%		    - voller Name des Ordners Windows
+%PROGRAMFILES%		    - voller Name des Ordners Programme
+%OPENFILETC_PATH%	    - voller Name des Ordners von OpenFileTC
+%COMMANDER_DRIVE%	    - Buchstabe Laufwerks (mit Doppelpunkt), von dem aus Total Commander gestartet wird
+%COMMANDER_INI%		    - voller Name der INI-Datei von Total Commander
+%ROOOTDRIVE%		    - Buchstabe Laufwerks (mit Doppelpunkt), von dem aus OpenFileTC gestartet wird
+%U3_APP_DATA_PATH%,         - Parameter für U3-Anwendungen
+%U3_DEVICE_EXEC_PATH%,
+%U3_HOST_EXEC_PATH%
+.\			    - dieser Tag ist wie %OPENFILETC_PATH%: voller Pfad zum Ordner von OpenFileTC
+..\			    - ein Level hoch. Kann mehrmals in verschiedenen Teilen des Pfades benutzt werden
+
+Achtung: Open File shell for TC zeigt keine Fehlermeldung, wenn dein Pfad falsch ist.
+Jedoch wird eine Anwendung mit solch einem Pfad im Abschnitt "Gefundene Anwendungen" stehen.

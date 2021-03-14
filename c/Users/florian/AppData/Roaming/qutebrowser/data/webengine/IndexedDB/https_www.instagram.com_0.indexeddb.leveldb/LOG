@@ -1,0 +1,15 @@
+2021/03/13-21:40:47.560 1c74 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/13-21:40:47.560 1c74 Recovering log #54
+2021/03/13-21:40:47.560 1c74 Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/000054.log 
+2021/03/13-21:42:24.186 1b3c Level-0 table #59: started
+2021/03/13-21:42:24.194 1b3c Level-0 table #59: 120881 bytes OK
+2021/03/13-21:42:24.196 1b3c Delete type=0 #54
+2021/03/13-21:42:24.196 1b3c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/13-21:42:24.196 1b3c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0e\x00u\x00s\x00e\x00r\x00s\x00.\x00v\x00i\x00e\x00w\x00e\x00r\x00I\x00d' @ 10090 : 1
+2021/03/13-21:42:24.197 1b3c Compacting 1@1 + 1@2 files
+2021/03/13-21:42:24.200 1b3c Generated table #60@1: 38 keys, 69048 bytes
+2021/03/13-21:42:24.200 1b3c Compacted 1@1 + 1@2 files => 69048 bytes
+2021/03/13-21:42:24.200 1b3c compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/13-21:42:24.201 1b3c Delete type=2 #56
+2021/03/13-21:42:24.201 1b3c Delete type=2 #59
+2021/03/13-21:42:24.201 1b3c Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0e\x00u\x00s\x00e\x00r\x00s\x00.\x00v\x00i\x00e\x00w\x00e\x00r\x00I\x00d' @ 10090 : 1 .. (end); will stop at (end)

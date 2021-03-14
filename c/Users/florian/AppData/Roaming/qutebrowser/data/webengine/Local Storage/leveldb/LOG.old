@@ -1,0 +1,31 @@
+2021/03/14-16:48:05.305 dcc Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\Local Storage\leveldb/MANIFEST-000001
+2021/03/14-16:48:05.305 dcc Recovering log #1313
+2021/03/14-16:48:05.306 dcc Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\Local Storage\leveldb/001313.log 
+2021/03/14-18:12:11.707 1460 Level-0 table #1321: started
+2021/03/14-18:12:11.713 1460 Level-0 table #1321: 22572 bytes OK
+2021/03/14-18:12:11.714 1460 Delete type=0 #1313
+2021/03/14-20:42:21.519 1460 Level-0 table #1323: started
+2021/03/14-20:42:21.521 1460 Level-0 table #1323: 17486 bytes OK
+2021/03/14-20:42:21.523 1460 Delete type=0 #1320
+2021/03/14-20:48:25.606 1460 Level-0 table #1325: started
+2021/03/14-20:48:25.611 1460 Level-0 table #1325: 18810 bytes OK
+2021/03/14-20:48:25.612 1460 Delete type=0 #1322
+2021/03/14-21:15:23.545 1460 Level-0 table #1327: started
+2021/03/14-21:15:23.555 1460 Level-0 table #1327: 335745 bytes OK
+2021/03/14-21:15:23.556 1460 Delete type=0 #1324
+2021/03/14-21:15:23.557 1460 Compacting 4@0 + 5@1 files
+2021/03/14-21:15:23.596 1460 Generated table #1328@0: 1293 keys, 2114320 bytes
+2021/03/14-21:15:23.632 1460 Generated table #1329@0: 989 keys, 2109323 bytes
+2021/03/14-21:15:23.667 1460 Generated table #1330@0: 4063 keys, 2108497 bytes
+2021/03/14-21:15:23.691 1460 Generated table #1331@0: 927 keys, 1522107 bytes
+2021/03/14-21:15:23.691 1460 Compacted 4@0 + 5@1 files => 7854247 bytes
+2021/03/14-21:15:23.691 1460 compacted to: files[ 0 4 1 0 0 0 0 ]
+2021/03/14-21:15:23.692 1460 Delete type=2 #1306
+2021/03/14-21:15:23.692 1460 Delete type=2 #1315
+2021/03/14-21:15:23.692 1460 Delete type=2 #1316
+2021/03/14-21:15:23.692 1460 Delete type=2 #1317
+2021/03/14-21:15:23.692 1460 Delete type=2 #1318
+2021/03/14-21:15:23.692 1460 Delete type=2 #1321
+2021/03/14-21:15:23.692 1460 Delete type=2 #1323
+2021/03/14-21:15:23.692 1460 Delete type=2 #1325
+2021/03/14-21:15:23.692 1460 Delete type=2 #1327

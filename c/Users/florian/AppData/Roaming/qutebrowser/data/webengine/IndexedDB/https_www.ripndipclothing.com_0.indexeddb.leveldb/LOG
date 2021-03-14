@@ -1,0 +1,8 @@
+2020/12/20-13:55:20.230 1590 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.ripndipclothing.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/20-13:55:20.230 1590 Recovering log #7
+2020/12/20-13:55:20.230 1590 Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.ripndipclothing.com_0.indexeddb.leveldb/000007.log 
+2020/12/20-13:55:47.921 1d78 Level-0 table #11: started
+2020/12/20-13:55:47.921 1d78 Level-0 table #11: 0 bytes OK
+2020/12/20-13:55:47.925 1d78 Delete type=0 #7
+2020/12/20-13:55:47.925 1d78 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/20-13:55:47.925 1d78 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

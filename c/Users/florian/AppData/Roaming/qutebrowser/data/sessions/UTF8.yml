@@ -1,0 +1,58 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAARAAAACgAAB24AAAQmAAAADgAAAA4AAAdxAAAEKQAAAAAAAAAAB4AAAAAOAAAA
+    DgAAB3EAAAQp
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-02-19T16:33:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Umlaute in PowerShell Script verwenden
+      url: https://social.technet.microsoft.com/Forums/de-DE/8af91b31-7712-499c-a90b-a5cc8f95a8ff/umlaute-in-powershell-script-verwenden?forum=powershell_de
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-02-19T16:33:01'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Windows Powershell: Umlaute in Dateinamen und pfaden - Administrator'
+      url: https://administrator.de/forum/windows-powershell-umlaute-in-dateinamen-und-pfaden-221191.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-02-19T16:33:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Dan''s PowerShell Stuff: Get file encoding even if no Byte Order Marker'
+      url: http://danspowershellstuff.blogspot.com/2012/02/get-file-encoding-even-if-no-byte-order.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-02-19T16:33:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'GitHub - DTW-DanWard/PowerShell-Beautifier: A whitespace reformatter
+        and code cleaner for Windows PowerShell and PowerShell Core'
+      url: https://github.com/DTW-DanWard/PowerShell-Beautifier
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-02-19T16:33:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Setting UTF8 as default Character Encoding in Windows 7 - Super User
+      url: https://superuser.com/questions/239810/setting-utf8-as-default-character-encoding-in-windows-7
+      zoom: 1.0

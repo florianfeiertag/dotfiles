@@ -1,0 +1,150 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAARAAAACgAAB24AAAQmAAAADQAAAA0AAAdyAAAEKgAAAAAAAAAAB4AAAAANAAAA
+    DQAAB3IAAAQq
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-03-14T21:34:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Managing Your Dotfiles · cat /var/log/life
+      url: https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-03-14T21:34:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: florianfeiertag/dotfiles
+      url: https://github.com/florianfeiertag/dotfiles
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2021-03-14T21:40:33'
+      pinned: false
+      title: Set up Vim on Ubuntu on Windows Subsystem for Linux 2 (WSL2) to share
+        clipboard
+      url: https://gist.github.com/necojackarc/02c3c81e1525bb5dc3561f378e921541
+    - last_visited: '2021-03-14T21:44:45'
+      pinned: false
+      title: Comparing WSL 2 and WSL 1 | Microsoft Docs
+      url: https://docs.microsoft.com/en-us/windows/wsl/compare-versions#accessing-network-applications
+    - last_visited: '2021-03-14T21:46:08'
+      pinned: false
+      title: vcxsrv export DSPLAY - Google Search
+      url: https://www.google.com/search?hl=en&q=vcxsrv%20export%20DSPLAY
+    - last_visited: '2021-03-14T21:46:20'
+      pinned: false
+      title: 'windows - Error: Can''t open display: 0 - Super User'
+      url: https://superuser.com/questions/1476086/error-cant-open-display-0
+    - last_visited: '2021-03-14T21:52:10'
+      original-url: https://unix.stackexchange.com/questions/367452/how-to-change-the-default-text-editor-in-ranger
+      pinned: false
+      title: ranger start editor - Google Search
+      url: https://www.google.com/search?hl=en&q=ranger%20start%20editor
+    - last_visited: '2021-03-14T21:52:32'
+      pinned: false
+      title: ranger create file - Google Search
+      url: https://www.google.com/search?hl=en&ei=T3dOYLm6HIesUsOKjPAJ&q=ranger+create+file&oq=ranger+create+file&gs_lcp=Cgdnd3Mtd2l6EAMYADICCAAyBggAEBYQHjIGCAAQFhAeOgcIABBHELADOgUIABCRAjoCCC46CAguEMcBEK8BOgQIABAKOggIABAWEAoQHlCXbliakQFgzpwBaAFwAngAgAHRAYgB9QuSAQU0LjcuMZgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz
+    - last_visited: '2021-03-14T21:52:34'
+      pinned: false
+      title: How to create a new file / directory using ranger? - Unix & Linux Stack
+        Exchange
+      url: https://unix.stackexchange.com/questions/384325/how-to-create-a-new-file-directory-using-ranger
+    - last_visited: '2021-03-14T21:55:45'
+      pinned: false
+      title: Links
+      url: http://links.deniro.de/
+    - last_visited: '2021-03-14T21:55:48'
+      pinned: false
+      title: Links
+      url: http://links.deniro.de/?do=login
+    - last_visited: '2021-03-14T21:55:51'
+      original-url: http://links.deniro.de/?do=login
+      pinned: false
+      title: Links
+      url: http://links.deniro.de/
+    - last_visited: '2021-03-14T21:55:55'
+      pinned: false
+      title: 'microsoft/cascadia-code: This is a fun, new monospaced font that includes
+        programming ligatures and is designed to enhance the modern look and feel
+        of the Windows Terminal.'
+      url: https://github.com/microsoft/cascadia-code
+    - last_visited: '2021-03-14T21:57:22'
+      pinned: false
+      title: iosevka - Google Search
+      url: https://www.google.com/search?hl=en&q=iosevka
+    - last_visited: '2021-03-14T21:57:24'
+      pinned: false
+      title: 'be5invis/Iosevka: Versatile typeface for code, from code.'
+      url: https://github.com/be5invis/Iosevka
+    - last_visited: '2021-03-14T21:57:53'
+      pinned: false
+      title: Search · firamono
+      url: https://github.com/search?q=firamono
+    - last_visited: '2021-03-14T21:58:08'
+      pinned: false
+      title: firamono - Google Search
+      url: https://www.google.com/search?hl=en&q=firamono
+    - last_visited: '2021-03-14T21:58:14'
+      pinned: false
+      title: nerdfonts - Google Search
+      url: https://www.google.com/search?hl=en&ei=33hOYKL5EcixrgTa8aVI&q=nerdfonts&oq=nerdfonts&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEAoyAggAMgQIABAKMgQIABAKMgQIABAKMgQIABAKMgQIABAKMgQIABAKMgQIABAKMgIIADoHCAAQsAMQQzoHCAAQRxCwAzoFCAAQkQI6CAguEMcBEKMCOgIILjoICC4QxwEQrwFQuh5YjShgniloAnACeACAAaEBiAGECpIBAzEuOZgBAKABAaoBB2d3cy13aXrIAQnAAQE&sclient=gws-wiz&ved=0ahUKEwji5PSe1rDvAhXImIsKHdp4CQkQ4dUDCA0&uact=5
+    - last_visited: '2021-03-14T21:58:27'
+      pinned: false
+      title: 'ryanoasis/nerd-fonts: Iconic font aggregator, collection, & patcher.
+        3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections:
+        Font Awesome, Material Design Icons, Octicons, & more'
+      url: https://github.com/ryanoasis/nerd-fonts
+    - last_visited: '2021-03-14T21:58:28'
+      pinned: false
+      title: Release v2.1.0 · ryanoasis/nerd-fonts
+      url: https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0
+    - last_visited: '2021-03-14T21:58:41'
+      pinned: false
+      title: 'ryanoasis/nerd-fonts: Iconic font aggregator, collection, & patcher.
+        3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections:
+        Font Awesome, Material Design Icons, Octicons, & more'
+      url: https://github.com/ryanoasis/nerd-fonts
+    - last_visited: '2021-03-14T21:59:22'
+      pinned: false
+      title: Links
+      url: http://links.deniro.de/
+    - last_visited: '2021-03-14T21:59:25'
+      pinned: false
+      title: Links
+      url: http://links.deniro.de/?searchtags=fonts
+    - last_visited: '2021-03-14T21:59:57'
+      pinned: false
+      title: Links
+      url: http://links.deniro.de/?searchterm=meslo
+    - last_visited: '2021-03-14T22:00:04'
+      pinned: false
+      title: meslo nf - Google Search
+      url: https://www.google.com/search?hl=en&q=meslo%20nf
+    - last_visited: '2021-03-14T22:00:36'
+      pinned: false
+      title: powerlevel0k - Google Search
+      url: https://www.google.com/search?hl=en&q=powerlevel0k
+    - last_visited: '2021-03-14T22:00:42'
+      pinned: false
+      title: powerlevel10k - Google Search
+      url: https://www.google.com/search?hl=en&ei=c3lOYJGtGs31qwGzza_wDg&q=powerlevel10k&oq=powerlevel10k&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANQpSNYpSNg_iNoAXACeACAAfsBiAH7AZIBAzItMZgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjRssbl1rDvAhXN-ioKHbPmC-4Q4dUDCA0&uact=5
+    - last_visited: '2021-03-14T22:00:43'
+      pinned: false
+      title: 'romkatv/powerlevel10k: A Zsh theme'
+      url: https://github.com/romkatv/powerlevel10k
+    - active: true
+      last_visited: '2021-03-14T22:01:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 16439
+      title: 'romkatv/powerlevel10k: A Zsh theme'
+      url: https://github.com/romkatv/powerlevel10k#fonts
+      zoom: 1.0

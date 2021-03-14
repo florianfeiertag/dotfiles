@@ -1,0 +1,22 @@
+# To use common configuration in %APPDATA%\mintty, simply remove this file
+BackgroundColour=36,36,36
+Transparency=off
+CursorType=block
+Columns=104
+Rows=57
+Scrollbar=none
+ScrollMod=off
+Font=MesloLGS NF
+FontHeight=11
+ThemeFile=
+Locale=de_DE
+Charset=UTF-8
+FontWeight=400
+CursorBlinks=no
+CtrlShiftShortcuts=yes
+Hold=always
+BellType=0
+BellFlash=no
+BellTaskbar=no
+Charwidth=unicode
+BellPopup=no

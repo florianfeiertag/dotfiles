@@ -1,0 +1,8 @@
+2021/02/11-22:39:12.215 3dc4 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.heise.de_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/11-22:39:12.215 3dc4 Recovering log #61
+2021/02/11-22:39:12.215 3dc4 Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.heise.de_0.indexeddb.leveldb/000061.log 
+2021/02/11-22:39:48.878 3758 Level-0 table #65: started
+2021/02/11-22:39:48.878 3758 Level-0 table #65: 0 bytes OK
+2021/02/11-22:39:48.882 3758 Delete type=0 #61
+2021/02/11-22:39:48.882 3758 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/11-22:39:48.882 3758 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/01/16-13:01:30.090 2900 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.independenttradingco.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/16-13:01:39.560 3d70 Level-0 table #5: started
+2021/01/16-13:01:39.562 3d70 Level-0 table #5: 1086 bytes OK
+2021/01/16-13:01:39.563 3d70 Delete type=0 #3
+2021/01/16-13:01:39.564 3d70 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

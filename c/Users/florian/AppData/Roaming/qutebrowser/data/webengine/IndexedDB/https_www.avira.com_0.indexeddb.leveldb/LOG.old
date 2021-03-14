@@ -1,0 +1,6 @@
+2021/01/07-10:26:26.722 3e6c Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.avira.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/07-10:26:34.825 35c4 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/01/07-10:26:36.835 35c4 Level-0 table #5: started
+2021/01/07-10:26:36.840 35c4 Level-0 table #5: 586 bytes OK
+2021/01/07-10:26:36.841 35c4 Delete type=0 #3
+2021/01/07-10:26:36.842 35c4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

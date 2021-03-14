@@ -1,0 +1,1 @@
+copy acpiecnl.sys %WINDIR%\System32\drivers

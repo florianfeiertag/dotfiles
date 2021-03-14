@@ -1,0 +1,15 @@
+2021/03/07-12:36:21.560 280c Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_app.simplenote.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/07-12:36:21.560 280c Recovering log #27
+2021/03/07-12:36:21.561 280c Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_app.simplenote.com_0.indexeddb.leveldb/000027.log 
+2021/03/07-12:38:48.221 3e44 Level-0 table #32: started
+2021/03/07-12:38:48.234 3e44 Level-0 table #32: 185306 bytes OK
+2021/03/07-12:38:48.236 3e44 Delete type=0 #27
+2021/03/07-12:38:48.236 3e44 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/07-12:38:48.237 3e44 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 1269 : 1
+2021/03/07-12:38:48.237 3e44 Compacting 1@1 + 1@2 files
+2021/03/07-12:38:48.242 3e44 Generated table #33@1: 62 keys, 18030 bytes
+2021/03/07-12:38:48.242 3e44 Compacted 1@1 + 1@2 files => 18030 bytes
+2021/03/07-12:38:48.242 3e44 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/07-12:38:48.243 3e44 Delete type=2 #29
+2021/03/07-12:38:48.243 3e44 Delete type=2 #32
+2021/03/07-12:38:48.245 3e44 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 1269 : 1 .. (end); will stop at (end)

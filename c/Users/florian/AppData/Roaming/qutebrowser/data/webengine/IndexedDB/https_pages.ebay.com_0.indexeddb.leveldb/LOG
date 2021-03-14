@@ -1,0 +1,8 @@
+2021/01/28-14:38:40.811 4b0c Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_pages.ebay.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/28-14:38:40.811 4b0c Recovering log #13
+2021/01/28-14:38:40.811 4b0c Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_pages.ebay.com_0.indexeddb.leveldb/000013.log 
+2021/01/28-14:39:01.424 2d54 Level-0 table #17: started
+2021/01/28-14:39:01.425 2d54 Level-0 table #17: 0 bytes OK
+2021/01/28-14:39:01.432 2d54 Delete type=0 #13
+2021/01/28-14:39:01.432 2d54 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/28-14:39:01.432 2d54 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

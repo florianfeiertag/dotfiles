@@ -1,0 +1,15 @@
+2021/03/03-22:00:30.228 1fe4 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.lenovo.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/03-22:00:30.229 1fe4 Recovering log #29
+2021/03/03-22:00:30.229 1fe4 Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.lenovo.com_0.indexeddb.leveldb/000029.log 
+2021/03/03-22:01:59.161 3150 Level-0 table #34: started
+2021/03/03-22:01:59.165 3150 Level-0 table #34: 1100 bytes OK
+2021/03/03-22:01:59.166 3150 Delete type=0 #29
+2021/03/03-22:01:59.167 3150 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/03-22:01:59.167 3150 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 121 : 1
+2021/03/03-22:01:59.167 3150 Compacting 1@1 + 1@2 files
+2021/03/03-22:01:59.169 3150 Generated table #35@1: 19 keys, 1149 bytes
+2021/03/03-22:01:59.169 3150 Compacted 1@1 + 1@2 files => 1149 bytes
+2021/03/03-22:01:59.170 3150 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/03-22:01:59.171 3150 Delete type=2 #31
+2021/03/03-22:01:59.171 3150 Delete type=2 #34
+2021/03/03-22:01:59.171 3150 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 121 : 1 .. (end); will stop at (end)

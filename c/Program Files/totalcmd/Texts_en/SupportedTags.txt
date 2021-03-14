@@ -1,0 +1,31 @@
+Open File shell for TC, ver. 1.8b
+
+List of avaliavle tags and environment variables which you can use in the paths.
+Tags are to be written as it is shown in this file.
+Don't forget about the symbol percent (%).
+
+!!! All tags are replaced with strings WITHOUT slash at the end.
+
+%COMMANDER_PATH%	- full name of the Total Commander's folders
+%WINDIR%		- full name of Windows folder
+%PROGRAMFILES%		- full name of Program Files folder
+%OPENFILETC_PATH%	- full name of the OpenFileTC's folder
+%COMMANDER_DRIVE%	- drive letter (with colon) where Total Commander starts from
+%COMMANDER_INI%		- Full name of Total Commander's Ini file name
+%ROOOTDRIVE%		- drive letter (with colon) where OpenFileTC starts from
+%U3_APP_DATA_PATH%,     - params for U3-applications
+%U3_DEVICE_EXEC_PATH%, 
+%U3_HOST_EXEC_PATH%
+.\			- this tag is like the %OPENFILETC_PATH%: full path to the OpenFileTC folder
+..\			- up one level. Can be used many times at the different parts of the path
+
+Attention: Open File shell for TC didn't raise any error if your path will be wrong.
+But application with such path will be at the "Losted applications" section.
+
+Examples:
+ %WINDIR%\system32\notepad.exe
+ %PROGRAMFILES%\Edit+\editplus.exe
+ %COMMANDER_DRIVE%\totalcmd2\totalcmd.exe
+
+Copyright © Antoon_Inc company, 2004-2008. All Rights Reserved.
+Ask a question: oftc@antoon-inc.com, ICQ 207-298-917

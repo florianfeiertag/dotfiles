@@ -1,0 +1,5 @@
+2021/01/28-14:29:17.336 3068 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.aliexpress.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/28-14:29:31.896 21dc Level-0 table #5: started
+2021/01/28-14:29:31.898 21dc Level-0 table #5: 2208 bytes OK
+2021/01/28-14:29:31.900 21dc Delete type=0 #3
+2021/01/28-14:29:31.901 21dc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

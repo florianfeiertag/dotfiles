@@ -1,0 +1,54 @@
+
+to install as service from folder C:\Program Files\TPFanControl\ :
+
+    WinXP: double click "install_service"
+           double click "start_service"
+           no reboot necessary
+
+    This program was writen for WinXP, but if you want to run it in
+    Vista as service, there will NOT be any GUI or icon. 
+    To get a digital icon with restricted rights run
+    tpfcicon.exe or tpfcicon_noballons.exe that means:
+    start->run C:\Program Files\TPFanControl\tpfcicon.exe
+    This icon has no control function menue items!!
+
+    
+    WinXP: DE: >>>>>>>>  als Dienst installieren:        
+           DE: doppelklick auf "install_service"
+           DE: doppelklick auf "start_service"
+           DE: kein Neustart erforderlich
+
+    Vista32: 1. as WinXP 2. tpfcicon.exe
+---------------------------------------------------------------
+
+    The service is installed as running automatically, but
+    if you want to start/stop the service, copy "start_service"&
+    "stop_service" to your desktop or any folder shown on taskbar.
+
+    DE: Der Dienst installiert so, dass er automatisch beim
+    DE: Hochfahren des Notebooks startet. Wenn Du ihn per Hand 
+    DE: starten oder stoppen möchtest,"start_service"& "stop_service" 
+    DE: auf den Desktop kopieren oder in einen Ordner, der in der
+    DE: Taskbar angezeigt wird. Dann jeweils Doppelklick drauf.
+
+---------------------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>>>>>> uninstall service
+double click
+1. stop_service
+2. uninstall_service
+
+----------------------------------------------------------------
+
+install_service:
+  C:\Program Files\TPFanControl\TPFanControl -i
+	 
+uninstall_service:
+  C:\Program Files\TPFanControl\TPFanControl -u
+
+start_service:
+  link to "net start TPFanControl"
+
+stop_service:
+  link to "net stop TPFanControl"
+

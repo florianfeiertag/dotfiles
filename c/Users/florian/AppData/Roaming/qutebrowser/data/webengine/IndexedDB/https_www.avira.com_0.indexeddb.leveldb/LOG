@@ -1,0 +1,26 @@
+2021/01/15-08:49:48.973 658 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.avira.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/15-08:49:48.973 658 Recovering log #4
+2021/01/15-08:49:48.974 658 Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.avira.com_0.indexeddb.leveldb/000004.log 
+2021/01/15-08:49:57.079 94 Level-0 table #8: started
+2021/01/15-08:49:57.081 94 Level-0 table #8: 512 bytes OK
+2021/01/15-08:49:57.082 94 Delete type=0 #4
+2021/01/15-08:49:57.083 94 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/01/15-08:49:59.090 94 Level-0 table #10: started
+2021/01/15-08:49:59.092 94 Level-0 table #10: 230 bytes OK
+2021/01/15-08:49:59.094 94 Delete type=0 #7
+2021/01/15-08:49:59.094 94 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 40 : 0
+2021/01/15-08:49:59.094 94 Compacting 1@0 + 1@1 files
+2021/01/15-08:49:59.095 94 Generated table #11@0: 7 keys, 491 bytes
+2021/01/15-08:49:59.095 94 Compacted 1@0 + 1@1 files => 491 bytes
+2021/01/15-08:49:59.096 94 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/01/15-08:49:59.097 94 Delete type=2 #8
+2021/01/15-08:49:59.097 94 Delete type=2 #10
+2021/01/15-08:49:59.097 94 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 40 : 0 .. (end); will stop at (end)
+2021/01/15-08:49:59.097 94 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\xc9\x17\x00h\x00t\x00t\x00p\x00s\x00_\x00w\x00w\x00w\x00.\x00a\x00v\x00i\x00r\x00a\x00.\x00c\x00o\x00m\x00_\x000\x00@\x001\x1d\x00m\x00o\x00d\x00e\x00r\x00n\x00i\x00z\x00r\x00-\x000\x00.\x000\x005\x002\x009\x003\x009\x009\x001\x000\x004\x008\x003\x002\x006\x006\x006\x003' @ 30 : 0
+2021/01/15-08:49:59.097 94 Compacting 1@1 + 1@2 files
+2021/01/15-08:49:59.099 94 Generated table #12@1: 4 keys, 221 bytes
+2021/01/15-08:49:59.099 94 Compacted 1@1 + 1@2 files => 221 bytes
+2021/01/15-08:49:59.100 94 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/15-08:49:59.100 94 Delete type=2 #5
+2021/01/15-08:49:59.100 94 Delete type=2 #11
+2021/01/15-08:49:59.101 94 Manual compaction at level-1 from '\x00\x00\x00\x00\xc9\x17\x00h\x00t\x00t\x00p\x00s\x00_\x00w\x00w\x00w\x00.\x00a\x00v\x00i\x00r\x00a\x00.\x00c\x00o\x00m\x00_\x000\x00@\x001\x1d\x00m\x00o\x00d\x00e\x00r\x00n\x00i\x00z\x00r\x00-\x000\x00.\x000\x005\x002\x009\x003\x009\x009\x001\x000\x004\x008\x003\x002\x006\x006\x006\x003' @ 30 : 0 .. (end); will stop at (end)

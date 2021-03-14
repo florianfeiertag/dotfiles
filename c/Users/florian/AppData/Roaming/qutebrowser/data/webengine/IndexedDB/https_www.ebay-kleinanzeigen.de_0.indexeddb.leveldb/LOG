@@ -1,0 +1,15 @@
+2021/02/12-14:27:01.501 2094 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.ebay-kleinanzeigen.de_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/12-14:27:01.502 2094 Recovering log #41
+2021/02/12-14:27:01.502 2094 Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.ebay-kleinanzeigen.de_0.indexeddb.leveldb/000041.log 
+2021/02/12-14:28:58.759 16b4 Level-0 table #46: started
+2021/02/12-14:28:58.762 16b4 Level-0 table #46: 36422 bytes OK
+2021/02/12-14:28:58.764 16b4 Delete type=0 #41
+2021/02/12-14:28:58.765 16b4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/12-14:28:58.765 16b4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x04\x02\x01\x15\x00l\x00l\x009\x007\x00:\x00s\x000\x00p\x003\x00v\x00x\x00:\x002\x00f\x00p\x004\x00f\x009\x00l\x00l\x007' @ 630 : 1
+2021/02/12-14:28:58.765 16b4 Compacting 1@1 + 1@2 files
+2021/02/12-14:28:58.769 16b4 Generated table #47@1: 100 keys, 27390 bytes
+2021/02/12-14:28:58.769 16b4 Compacted 1@1 + 1@2 files => 27390 bytes
+2021/02/12-14:28:58.770 16b4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/12-14:28:58.770 16b4 Delete type=2 #43
+2021/02/12-14:28:58.770 16b4 Delete type=2 #46
+2021/02/12-14:28:58.771 16b4 Manual compaction at level-1 from '\x00\x03\x04\x02\x01\x15\x00l\x00l\x009\x007\x00:\x00s\x000\x00p\x003\x00v\x00x\x00:\x002\x00f\x00p\x004\x00f\x009\x00l\x00l\x007' @ 630 : 1 .. (end); will stop at (end)

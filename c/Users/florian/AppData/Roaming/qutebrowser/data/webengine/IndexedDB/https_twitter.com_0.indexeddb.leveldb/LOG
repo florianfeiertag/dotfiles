@@ -1,0 +1,15 @@
+2021/03/14-14:40:55.194 2ce8 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/14-14:40:55.195 2ce8 Recovering log #11
+2021/03/14-14:40:55.197 2ce8 Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_twitter.com_0.indexeddb.leveldb/000011.log 
+2021/03/14-14:41:37.863 2d24 Level-0 table #16: started
+2021/03/14-14:41:37.869 2d24 Level-0 table #16: 67014 bytes OK
+2021/03/14-14:41:37.871 2d24 Delete type=0 #11
+2021/03/14-14:41:37.871 2d24 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/14-14:41:37.872 2d24 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x03\x01\x0d\x001\x006\x001\x004\x008\x006\x004\x004\x007\x000\x004\x005\x002' @ 1936 : 1
+2021/03/14-14:41:37.872 2d24 Compacting 1@1 + 1@2 files
+2021/03/14-14:41:37.876 2d24 Generated table #17@1: 39 keys, 105559 bytes
+2021/03/14-14:41:37.876 2d24 Compacted 1@1 + 1@2 files => 105559 bytes
+2021/03/14-14:41:37.876 2d24 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/14-14:41:37.877 2d24 Delete type=2 #13
+2021/03/14-14:41:37.877 2d24 Delete type=2 #16
+2021/03/14-14:41:37.878 2d24 Manual compaction at level-1 from '\x00\x02\x01\x03\x01\x0d\x001\x006\x001\x004\x008\x006\x004\x004\x007\x000\x004\x005\x002' @ 1936 : 1 .. (end); will stop at (end)

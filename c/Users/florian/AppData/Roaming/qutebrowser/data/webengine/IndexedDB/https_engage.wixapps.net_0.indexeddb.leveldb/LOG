@@ -1,0 +1,5 @@
+2021/02/14-22:57:20.441 3cf0 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_engage.wixapps.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/14-22:58:56.632 3f98 Level-0 table #5: started
+2021/02/14-22:58:56.638 3f98 Level-0 table #5: 6010 bytes OK
+2021/02/14-22:58:56.639 3f98 Delete type=0 #3
+2021/02/14-22:58:56.640 3f98 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,29 @@
+Open File shell for TC, ver. 1.8b beta
+
+Dieses Tool erlaubt dir, verschiedene Dateitypen mit irgend einem auf deinem
+System installierten Programm via Total Commander zu öffnen. Dies bedeutet,
+immer wenn du im Total Commander F4 tippst, wird die Datei von dem Programm
+geöffnet, das du zuvor als das am besten zum Betrachten oder Bearbeiten
+dieses Dateityps geeignete gewählt hast.
+
+Installation des Programms:
+  - Starte Total Commander.
+  - Entpacke dieses Archiv in einen Ordner.
+  - Starte OpenFileTC.exe. Das Programm wird sich selbst als Editor für
+    Total Commander registrieren.
+  - Total Commander neu starten.
+  - Hab Spaß damit!
+
+Arbeiten mit Open File shell for TC:
+  - Starte Total Commander.
+  - Drücke F4 auf der Datei, die du bearbeiten willst.
+  - Wähle "Anderes Programm..." und suche den benötigten Editor. Das
+    Programm wird sich deine Auswahl merken und das nächste mal wird dieser
+    Editor ohne das Fenster von OpenFileTC geöffnet.
+
+Das Programm ist Freeware.
+
+Copyright © Antoon_Inc, 2004-2008. Alle Rechte vorbehalten.
+Du findest mich hier: admin@antoon-inc.com, ICQ 207-298-917
+
+Programm History: Siehe Texts_en/OpenFileTC.txt

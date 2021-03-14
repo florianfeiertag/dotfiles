@@ -1,0 +1,65 @@
+Open File shell for TC, v1.8a
+
+Diese Optionen existieren aus bestimmten Gründen nicht im Einstellungsfenster
+von OpenFileTC. Um hier beschriebene Optionen zu aktivieren oder deaktivieren,
+musst du die Datei OpenFileTC.ini öffnen und einige Strings manuell ändern.
+
+Alle neuen Strings stehen in dieser Datei ganz oben.
+
+-----
+
+Dieser Parameter erlaubt, die Option "Anzahl Aufrufe" zu deaktivieren.
+Deaktivierst du sie, hört OpenFileTC mit dem Zählen der Aufrufe der Anwendungen
+auf und du bist nicht mehr in der Lage, sie nach der Anzahl ihrer Aufrufe zu
+sortieren.
+Per Vorgabe deaktiviert.
+[Main]
+DisableCallsCount=0
+
+-----
+
+Dieses Feld erlaubt, um alle Komponenten aller Fenster zu fixieren
+(das Hauptfenster ausgenommen). Es hilft dir, wenn du keine Standard-Schrift
+nutzt und einige Buttons liegen ausserhalb des sichtbaren Fensterbereichs.
+Per Vorgabe deaktiviert.
+[Main]
+FixWindows=0
+
+-----
+
+Wenn du das Überprüfen der Maus-Position für das Erzwingen des Öffnens von
+OpenFileTC aktivierst, dann erlaubt diese Option, die Empfindlichkeit dieser
+Prüfung zu erhöhen / verringern.
+Dieser Parameter erlaubt, die Größe des Rechtecks anzuzeigen, das geprüft wird.
+Alle Parameter sind per Vorgabe 18 (in anderen Worten, OpenFileTC prüft ein
+Rechteck von 18x18 Pixeln).
+[ForceApp]
+MouseDX=18
+MouseDY=18
+
+-----
+
+Dieser Parameter erlaubt, die Anzahl der Erweiterungen im Hinweis für
+Anwendungen festzulegen.
+Der erste String wird drei Erweiterungen weniger als dieser Parameter
+besitzen.
+Vorgabe ist 7.
+[Main]
+ExtsCountPerString=7
+
+-----
+
+Dieser Parameter ist für das Holen der Liste der gewählten Dateien
+verantwortlich. Per Vorgabe versucht OpenFileTC, die Liste der gewählten
+Dateien ohne die Verwendung der Zwischenablage zu bekommen. Aber manchmal
+ist diese Option otwendig.
+Willst du OpenFileTC die Verwendung der Zwischenablage erlauben und die
+Liste darüber einzuholen, dann setze dises Option auf 1. Vorgabe ist 0.
+Achtung! Setzt du hier 1, wirst du manchmal die Zwischenablage schließen!
+[Main]
+CanUseClipboard=0
+
+-----
+
+Copyright © Antoon_Inc company, 2004-2008. Alle Rechte vorbehalten.
+Kontakt-Informationen: admin@antoon-inc.com, ICQ 207-298-917

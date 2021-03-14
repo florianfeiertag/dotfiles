@@ -1,0 +1,15 @@
+2021/02/15-22:06:22.370 41ac Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.deviantart.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/15-22:06:22.371 41ac Recovering log #47
+2021/02/15-22:06:22.371 41ac Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.deviantart.com_0.indexeddb.leveldb/000047.log 
+2021/02/15-22:06:44.759 30c8 Level-0 table #52: started
+2021/02/15-22:06:44.765 30c8 Level-0 table #52: 5243 bytes OK
+2021/02/15-22:06:44.766 30c8 Delete type=0 #47
+2021/02/15-22:06:44.767 30c8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/15-22:06:44.767 30c8 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01^\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00B\x002\x00K\x00F\x00Z\x00D\x00G\x007\x00U\x00H\x00U\x00f\x00-\x00C\x00B\x00T\x00r\x00x\x00f\x00j\x00v\x00D\x004\x00O\x00r\x005\x009\x00K\x00E\x00E\x00V\x00n\x00c\x00:\x004\x000\x007\x00d\x00b\x008\x00d\x00c\x00-\x002\x006\x004\x00a\x00-\x004\x001\x008\x00c\x00-\x008\x005\x00c\x00a\x00-\x009\x003\x000\x000\x006\x002\x006\x003\x00d\x00a\x009\x00f' @ 709 : 1
+2021/02/15-22:06:44.768 30c8 Compacting 1@1 + 1@2 files
+2021/02/15-22:06:44.771 30c8 Generated table #53@1: 53 keys, 30966 bytes
+2021/02/15-22:06:44.771 30c8 Compacted 1@1 + 1@2 files => 30966 bytes
+2021/02/15-22:06:44.771 30c8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/15-22:06:44.772 30c8 Delete type=2 #49
+2021/02/15-22:06:44.772 30c8 Delete type=2 #52
+2021/02/15-22:06:44.773 30c8 Manual compaction at level-1 from '\x00\x01\x01\x02\x01^\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00B\x002\x00K\x00F\x00Z\x00D\x00G\x007\x00U\x00H\x00U\x00f\x00-\x00C\x00B\x00T\x00r\x00x\x00f\x00j\x00v\x00D\x004\x00O\x00r\x005\x009\x00K\x00E\x00E\x00V\x00n\x00c\x00:\x004\x000\x007\x00d\x00b\x008\x00d\x00c\x00-\x002\x006\x004\x00a\x00-\x004\x001\x008\x00c\x00-\x008\x005\x00c\x00a\x00-\x009\x003\x000\x000\x006\x002\x006\x003\x00d\x00a\x009\x00f' @ 709 : 1 .. (end); will stop at (end)

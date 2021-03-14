@@ -1,0 +1,70 @@
+Open File shell for TC, v1.8b
+
+These options are not existed in the setup window of the OpenFileTC for any 
+of several reasons. To enable or disable options descrived here, you need to
+open the OpenFileTC.ini file and add needed strings manually.
+
+All new strings are at the top of this file.
+
+-----
+
+This param is responsible for asking a question to user - he wants to 
+check stratup type for his applications (in OFTC)or not. Basically, 
+OFTC asks 1 time by itself when it starts, and it doesn't ask this question 
+lately. If you set flag to zero, then OFTC will ask user to check startup 
+type for his applications.
+Disabled by default, enabled after user answer on OFTC question
+[Main]
+AlreadyCheckedRunTypesByAppBase=0
+
+-----
+
+This param allows to disable the "Calls count" option. If you disable it,
+then OpenFileTC will stops calculate calls count of each application,
+and you will not be able to sort by calls count.
+Disabled by default.
+[Main]
+DisableCallsCount=0
+
+-----
+
+This field allows to fix all components of all windows (except the 
+main window). It allows to help you if you have not standart font,
+and some buttons are away the screen.
+Disabled by default.
+[Main]
+FixWindows=0
+
+-----
+
+If you activate checking of the mouse position to open OpenFileTC by force,
+then this option allows to raise / decrease the sensitivity of this check.
+This param allows to show the size of rectangle, which will be checked 
+All params are 18 by default (in other words, OpenFileTC check the 18х18 rect).
+[ForceApp]
+MouseDX=18
+MouseDY=18
+
+-----
+
+This param allows to fix the extensions count in the hint for applications.
+First string will have the three extensions less this param.
+Default is 7.
+[Main]
+ExtsCountPerString=7
+
+-----
+
+This param is responsible for getting list of the selected files.
+By default, OpenFileTC tries to get list of the selected files
+without using the clipboard. But sometimes this option is necessary.
+If you want to allow OpenFileTC use clipboard and get list of files via 
+it, then set this option as 1. Default is 0.
+Attention! If you set here 1, then sometimes you may lose clipboard!
+[Main]
+CanUseClipboard=0
+
+-----
+
+Copyright © Antoon_Inc company, 2004-2007. All Rights Reserved.
+Связь с разработчиком: antoon_inc@mail15.com, ICQ 207-298-917

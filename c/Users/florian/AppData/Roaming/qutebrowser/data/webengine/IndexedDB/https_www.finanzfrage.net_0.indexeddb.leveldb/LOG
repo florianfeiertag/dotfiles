@@ -1,0 +1,17 @@
+2021/02/05-15:03:08.188 28c0 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.finanzfrage.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/05-15:03:09.246 b20 Level-0 table #5: started
+2021/02/05-15:03:09.250 b20 Level-0 table #5: 618 bytes OK
+2021/02/05-15:03:09.251 b20 Delete type=0 #3
+2021/02/05-15:03:09.252 b20 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/02/05-15:03:20.716 b20 Level-0 table #7: started
+2021/02/05-15:03:20.718 b20 Level-0 table #7: 3679 bytes OK
+2021/02/05-15:03:20.720 b20 Delete type=0 #4
+2021/02/05-15:03:20.721 b20 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/05-15:03:20.721 b20 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x014\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x000\x009\x005\x003\x004\x007\x008\x005\x002\x002\x002\x004\x00:\x00w\x00e\x00b\x00:\x00e\x002\x00f\x002\x006\x007\x005\x000\x00a\x002\x00e\x00c\x00d\x002\x00a\x001\x006\x006\x00e\x00e\x002\x005' @ 68 : 1
+2021/02/05-15:03:20.721 b20 Compacting 1@1 + 1@2 files
+2021/02/05-15:03:20.723 b20 Generated table #8@1: 19 keys, 1272 bytes
+2021/02/05-15:03:20.723 b20 Compacted 1@1 + 1@2 files => 1272 bytes
+2021/02/05-15:03:20.725 b20 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/05-15:03:20.725 b20 Delete type=2 #5
+2021/02/05-15:03:20.725 b20 Delete type=2 #7
+2021/02/05-15:03:20.726 b20 Manual compaction at level-1 from '\x00\x02\x01\x02\x014\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x000\x009\x005\x003\x004\x007\x008\x005\x002\x002\x002\x004\x00:\x00w\x00e\x00b\x00:\x00e\x002\x00f\x002\x006\x007\x005\x000\x00a\x002\x00e\x00c\x00d\x002\x00a\x001\x006\x006\x00e\x00e\x002\x005' @ 68 : 1 .. (end); will stop at (end)

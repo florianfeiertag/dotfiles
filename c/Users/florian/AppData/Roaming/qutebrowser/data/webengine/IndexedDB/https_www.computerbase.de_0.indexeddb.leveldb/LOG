@@ -1,0 +1,8 @@
+2021/03/03-22:56:50.232 250c Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.computerbase.de_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/03-22:56:50.232 250c Recovering log #4
+2021/03/03-22:56:50.232 250c Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.computerbase.de_0.indexeddb.leveldb/000004.log 
+2021/03/03-22:57:32.740 2ee0 Level-0 table #8: started
+2021/03/03-22:57:32.740 2ee0 Level-0 table #8: 0 bytes OK
+2021/03/03-22:57:32.742 2ee0 Delete type=0 #4
+2021/03/03-22:57:32.742 2ee0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/03-22:57:32.742 2ee0 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

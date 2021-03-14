@@ -1,0 +1,5 @@
+2020/12/20-20:08:15.353 1ae0 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.schule-und-familie.de_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/20-20:09:04.179 258c Level-0 table #5: started
+2020/12/20-20:09:04.185 258c Level-0 table #5: 23496 bytes OK
+2020/12/20-20:09:04.187 258c Delete type=0 #3
+2020/12/20-20:09:04.188 258c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

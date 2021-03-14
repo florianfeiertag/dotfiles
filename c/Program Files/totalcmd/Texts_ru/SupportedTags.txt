@@ -1,0 +1,30 @@
+Open File shell for TC, версия 1.8b
+
+Список поддерживаемых тэгов в путях программы.
+Сами тэги следует писать именно таким образом, как показано в этом файле.
+
+!!! Тэг заменяется на строку БЕЗ слэша на конце.
+
+%COMMANDER_PATH%	- полный путь до запущенной копии Total Commander
+%WINDIR%		- полное имя папки с установленной ОС Windows
+%PROGRAMFILES%		- полное имя папки Program Files
+%OPENFILETC_PATH%	- полный путь до запущенного OpenFileTC
+%COMMANDER_DRIVE%	- имя диска, с которого стартовал Total Commander
+%COMMANDER_INI%		- имя ini-файла Total Commander
+%ROOTDRIVE%		- имя диска, с которого стартовал OpenFileTC
+.\			- параметр аналогичен тэгу %OPENFILETC_PATH%: полный путь до запущенного OpenFileTC
+..\			- подняться на один уровень вверх. Можно использовать многократно в разных частях строки
+%U3_APP_DATA_PATH%,     - параметры для так называемых U3-приложений
+%U3_DEVICE_EXEC_PATH%, 
+%U3_HOST_EXEC_PATH%
+
+Внимание: программа не выдаст ошибку в случае, если путь до программы будет составлен неверно.
+Приложение с таким путём будет расположено в разделе "Потерянные приложения".
+
+Примеры строк:
+ %WINDIR%\system32\notepad.exe
+ %PROGRAMFILES%\Edit+\editplus.exe
+ %COMMANDER_DRIVE%\totalcmd2\totalcmd.exe
+
+Copyright © Antoon_Inc company, 2004-2008. All Rights Reserved.
+Связь с разработчиком: oftc@antoon-inc.com, ICQ 207-298-917

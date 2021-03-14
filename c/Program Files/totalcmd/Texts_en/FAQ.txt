@@ -1,0 +1,84 @@
+Open File shell for TC, version 1.8b
+Frequently Asked Questions.
+
+Copyright © Antoon_Inc company, 2004-2008. All Rights Reserved.
+
+Here those questions which, in my opinion, can be arisen at you during work 
+with the Open File shell for TC. I hope, this list helps you to understand 
+application's work.
+
+If you think that some questions are not disclosed there, then please write
+me to oftc@antoon-inc.com
+
+----------------- Work with application -----------------------
+
+Q. I am working with text-files a lot, but these text-files have a huge number different extensions,
+   like *.1, *.textfile, *.someext and other. And I am tired to click on the same editor each time.
+   Is it possible to set default editor for each new extension? I want to open all new extensions
+   in one editor directly, without OpenFileTC window. How can I do it?
+О. To do it, open in OpenFileTC the editors' setup window (editor which you want to set as default)
+   and check there the "Open all new extensions in this editor directly" check box.
+   
+
+--------------------- Application's setup -------------------------
+
+Q. I want to edit an executable, but OpenFileTC always asks me - do I want to add this
+   executable to the list of editors? How can I disable this option? 
+   And why was it made for?
+A. This option was made for user friendliness. Now you can add editor not only via the
+   OpenFileTC interface ("Other application..." item), but via the Total Commander too.
+   You just need to press F4 on the new editor, and OpenFileTC will asks you to add this 
+   editor to the common list.
+   If you want to disable this option, you need to open OpenFileTC setup window, there
+   select the "Tuning" section, and swithch off the 
+   "Add executable to the list of editors if user press F4 on it" switcher.
+
+Q. How compulsorily to open Open File shell for TC?
+A. You can set up forced run of OpenFileTC using section Tuning 
+   at the Setup window of application.
+
+Q. How to open at once some text files in the necessary editor? 
+A. For this purpose it is necessary to select these files and to press F4.
+
+Q. What variable environments do the application understands?
+A. You can see full list of all environment variables at the SupportedTags_eng.txt file.
+   Also there is a description for using them.
+
+Q. How to assign files without extensions for some editor?
+A. You need to add extension %nil% to the list of supported extensions of this executable.
+
+
+--------------------- Solving problems -------------------------
+
+Q. How to divide Open File shell for TC between users?
+A. In a section Tuning, there is a switch which is responsible for setting's 
+   division between users.
+
+Q. If I use %COMMANDER_PATH% in my command line for program, sometimes program didn't start. 
+   What is the matter?
+A. This may cause if you are starts Open File TC not under the Total Commander. Also please 
+   check that there is right Environment Variable for the Total Commander process. For example, 
+   you can use envvar.wfx plugin for this. If there is no COMMANDER_PATH variable, them create 
+   it by yourself and set full path to the totalcmd.exe file. For example, it can be C:\TotalCmd 
+   (without slash at the end!).
+
+Q. When I open file using Open File TC then application write: Can't open this file. Or sometimes 
+   application opens only the first file from the list of selected files. What is the matter?
+A. May be this application need to receive files without quotes around them. Or application allow 
+   to edit only one file at once. Try to experiment with  . Try to select, for example, second 
+   or fourth variant.
+
+Q. How to show hint near the mouse, not in the corner of the Open File TC window?
+A. You need to switch on the "Show tool tips near the mouse" check box, in OpenFileTC setup window.
+
+Q. When I open editor using Open File TC, a process OpenFileTC.exe is still in the processes list. 
+   Is this a bug? 
+A. This is not a bug, but you can do the following thing. Switch on the "Don't spy for executables"
+   check box, in the setup window of Open File TC. Then Open File TC stops to spy for runned 
+   executable. But if you opens file from archive, then you need to repack this archive manually.
+
+--------------------- Not solved questions -------------------------
+
+Q. How at once to open one file in one editor, and another - in the other?
+Q. How can I Open a folder using Open File TC?
+Q. How can I open *.txt-files in one editor, and readme.txt-file in anotner?

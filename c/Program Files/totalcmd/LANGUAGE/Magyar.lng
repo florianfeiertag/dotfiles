@@ -1,0 +1,238 @@
+; Ez a magyar nyelvi fájl az "Open File shell for TC" programhoz. Verziószám: 1.7c
+; Információ a fordítóknak.
+
+; Az új sorok (v1.7b -> v1.7c) az adott sor felett található "; new" megjegyzéssel
+; a változtatott sorok pedig a "; changed" megjegyzéssel vannak megjelölve.
+
+; Ajánlott ezt a nyelvi fájlt Unicode formátumban elmenteni, de, amennyiben az ANSI kód megfelelõen mûködik,
+; a nyelvi fájl elmenthetõ azzal a kódlappal is.
+; Továbbá sortöréshez használható a "/s;" karakterlánc (idézõjelek nélkül).
+; Ennek ellenére a korábbi "‡" szimbólum továbbra is mûködik.
+
+; --------------------------------------------- ;
+;						;
+; 1.7c verzió					;
+;						;
+; --------------------------------------------- ;
+ 
+[Misc]           ; info about author of this language file. Please fill all fields correctly and only about YOU :)
+ ; language name, must be in your native letters
+0=Magyar (Hungarian)
+ ; name of translator (man or company)
+1=Major Péter & Tóth Gergely
+ ; what OpenFileTC version this language file is maked for
+2=1.7c
+ ; your contact information and copyrights 
+3=(C) Copyright, 2004-2007. Minden jog fenntartva. E-Mail: major.peter@mailbox.hu, tgamespy@freemail.hu
+
+[MainUnit]       ; strings and messages for main window
+0=%FileName% megnyitása a következõvel...
+1=Gyakori alkalmazások
+2=Egyéb alkalmazások
+3=Gyorsbillentyû
+4=Elveszett alkalmazások
+5=Más alkalmazás...
+6=Program kiválasztása:
+7=A kiválasztott fájl nem alkalmazás!/s;Ezt választottad: "%ProgramName%"./s;A fájltípusa (kiterjesztése) nem EXE./s;Biztos, hogy ezt a fájlt akarod használni?
+8=Alkalmazás:
+9=Kiterjesztések:
+10=Elérési út:
+11=Alkalmazás nem található!
+12=Hozzárendelések szerkesztése
+13=Elérési út módosítása
+14=Átnevezés
+15=Gyorsbillentyû:
+16=Eltávolítás a listáról
+17=Átnevezés
+18=Új név:
+19=Biztos, hogy el akarod távolítani a(z) "%ProgramName%"-t/s;az elérhetõ programok listájáról?
+20=Figyelem: Total Commander-t találtam a számítógépen./s;Beállíthatod az Open File shell for TC alkalmazást alapértelmezett szerkesztõnek a Total Commander-hez./s;%NowStandProgram%/s;Elõnyök:/s;- minden F4-gyel megnyitott fájlt a LEGALKALMASABB szerkesztõjével nyithatsz meg/s;- egyszerû beállítás/s;- A OpenFileTC nem "tolakodó"/s;/s;Ha tetszenek ezek az elõnyök, nyomd meg az IGEN-t!/s;Nincs szükség további mûveletre. /s;Ezt a kérdést soha többet nem teszem fel.
+21=Köszönöm a választását!/s;/s;Amennyiben van éppen futó Total Commander példány,/s;kérem, indítsa újra õket. A változások a Total Commander újraindítása után lépnek életbe.
+22=Figyelem: DbCD Universal found on your machine./s;You can set Open File shell for TC application as the default viewer for DbCD Universal./s;%NowStandProgram%/s;Advantages:/s;- every file can be opened via F3 with the most SUITABLE viewer/s;- simple associations setup/s;- OpenFileTC is not meddlesome/s;/s;If you become interested in this advantages then just press YES./s;Application will make any necessary actions for you. /s;This question won't be asked any more.
+23=Thanks for your choice!/s;/s;If you has some working instances of DbCD Universal,/s;please, restart them. Changes will be apllied after restarting DbCD Universal.
+24=Program hozzáadása, amely meg tudja nyitni /s;a következõ fájlt: %FileName%
+25=Mindig ezzel a programmal nyissa meg ezt a fájltípust
+26=%ProgramName% beállítása
+27=Megnyitás, ne figyelje az alkalmazást
+28=Megnyitás ezzel: %ProgramName%
+29=Használatok száma:
+30=Paraméterek nélkül indított el egy programot. Nem ajánlott a programok hozzáadása ilyen módon. Továbbra is hozzá akarja adni az új elemet a listához?
+31=Ne mutassa többé a kiválasztó ablakot a következõ típushoz: %FileType% /s;Fájl megnyitása a kiválasztott programmal azonnal.
+32=OK
+33=OpenFileTC beállítása
+34=Mégse
+35=Rendezés
+36=Nézet
+37=Ikonok mutatása
+38=Beállítás
+39=Most ezt használod: "%ProgramName%"
+40=Összes alkalmazás listája
+43=Nem hozható létre csoport a program elemeihez. Lehetséges, hogy hibák találhatóak az alkalmazásban.
+44=Nem hozható létre a következõ fájl: "%INIFileName%"./s;Talán csak olvasható eszközrõl futtatja a programot (például CD-ROM vagy DVD-ROM), esetleg a beállításokat tartalmaz fájl "csak olvasható" állapotú./s;A program minden beállítását a következõ mappába fogja menteni: "%WinFolder%"
+45=Hiba lépett fel a beállításokat tartalmazó fájl létrehozása közben./s;Fájlnév: "%INIFileName%"./s;Rendszerüzenet: "%SystemMessage%"./s;Hibaosztály: "%ClassMessage%"./s;/s;A program be fog záródni!
+46=A program csak az elsõ fájlt/s;nyitja meg a listából, idézõjelek nélkül
+47=A program csak az elsõ fájlt/s;nyitja meg a listából, idézõjelekkel
+48=Minden fájl a program egy új példányával kerül megnyitásra idézõjelek nélkül
+49=Minden fájl a program egy új példányával kerül megnyitásra idézõjelekkel
+51=Adjon hozzá programot, amely tudja, /s;hogyan kell megnyitni a kiválasztott formátumú fájlokat
+
+[EditExtsUnit]   ; here strings and messages for extensions tuner window
+0="%ProgramName%" kiterjesztéseinek szerkesztése
+1=Ok
+2=Mégse
+7=Kiterjesztés:
+3=Hozzáadás
+4=Szerkesztés
+5=Eltávolítás
+6=Új kiterjesztés
+8=Azonnali megnyitás a következõvel: %ProgramName%
+9=Választó ablak megnyitása
+10=OpenFileTC-mûvelet
+11=Típus
+12=Parancssor
+13=Megengedett változók:/s;/s;%FullFileName% - teljes fájlnév/s;%FileName% - csak fájlnév (mappa és kiterjesztés nélkül)/s;%FileExt% - fájl kiterjesztése (pont nélkül)/s;A változók függetlenek a kis- vagy nagybetûs írástól
+
+[SetupUnit]    ; setup window
+0=Fájlmegnyitási héj TC-hez: Beállítások
+1=Nyelv:
+2=Betûtípusok és színek
+3=Elemek:
+4=Válaszd ki a nyelvet a listából!/s;Tölthetsz le még nyelveket a http://www.antoon-inc.com/oftc oldalról.
+5=Szakaszok
+6=Ikonok
+7=Lista
+8=Kis ikonok
+9=Riport
+10=Ikonok betöltése
+11=Ikonok mutatása a programok alapján
+12=Alkalmaz
+13=Minden változás alkalmazása
+14=Ok
+15=Az ablak bezárása és a változások elmentése
+16=Mégse
+17=Az ablak bezárása a változások elmentése nélkül
+18=Minden felhasználónak saját beállításai vannak
+19=Használja ezt a beállítást az OpenFileTC beállításainak /s;felhasználók szerinti elválasztására ezen a számítógépen
+20=Ha ez a fájl létezik, akkor minden felhasználónak megvannak az OpenFileTC programhoz tartozó saját beállításai. Amennyiben minden felhasználó számára azonos beállításokat szeretne, törölje ezt a fájlt. Ez a megjegyzés törölhetõ.
+21=Betûtípus...
+22=A fõablak feliratainak típusa, színe és mérete
+23=Háttér
+24=A fõablak háttérszíne
+25=Ikonok gyorsírótárazása
+26=Ikonok betöltése a programoktól csak egy alkalommal/s;majd ezek elmentése az "Icons" alkönyvtárba (ajánlott)
+27=Egyéb
+28=Beállítás
+29=Névjegy
+30=Válassza ki az ikon nézetét
+31=Ne kémkedjen a futtatható állományok után
+32=Ne várjon az elindított programra,/s;fejezze be a megnyitott fájlal való munkát
+33=Buboréktippek mutatása az egér közelében
+34=Alapértelmezés szerint a futtatható állományokhoz tartozó buboréktippek/s;az OpenFileTC ablakának sarkában jelennek meg
+35=Buboréktippek mutatása
+36=Tippek mutatása a programokhoz, /s;amikor az egér föléjük ér a fõablakban
+37=Fõablak:
+38=Párbeszédablakok:
+39=Egyéb ablakok szövegeinek típusa, színe és mérete
+40=A fõablakban az elemek típusának rendezése
+41=Válassza ki a rendezés típusát /s; a hozzáadott programhoz a fõablakban
+42=ABC-sorrend
+43=Értékelés alapján
+44=A "Minden felhasználó saját beállításokkal rendelkezik" opció akkor lesz aktív, amikor az alkalmazást újraindítja
+45=Változók az erõltetett programhíváshoz
+46=Az alábbi funkcióbillentyû nyomva tartása: 
+47=Amennyiben ez a funkcióbillentyû le van nyomva,/s;az OpenFileTC minden fájlmegnyitáskor megnyílik
+48=Az egérmutató itt van:
+49=Amennyiben az egérmutató a megadott sarokban van,/s;az OpenFileTC minden fájlmegnyitáskor megnyílik
+50=Válasszon egérpozíciót a listából
+51=Válassza ki a funkcióbillentyût a listából
+52=a képernyõ bal felsõ sarka
+53=a képernyõ jobb felsõ sarka
+54=a képernyõ bal alsó sarka
+55=a képernyõ jobb alsó sarka
+56=Könyvtármegnyitás támogatásának engedélyezése
+57=Kiválasztott könyvtárak megnyitásának engedélyezése az F4 funkcióbillentyûvel./s; Engedélyezze a következõt, mint támogatott kiterjesztést: %Dir%./s;További információkat a .chm formátumú súgóban talál
+58=A "Megnyitás mindig a kiválasztott alkalmazással..." jelölõnégyzet állapota:
+59=Itt megadhatja ennek a jelölõnégyzetnek az á	llapotát/s;minden egyes OFTC induláskor. Ez az elem lehet /s;mindig bejelölt/s;mindig bejelöletlen vagy /s;emlékezhet a jelölõnégyzet változására
+60=Emlékezzen az utolsó felhasználói döntésre
+61=Mindig kikapcsolt
+62=Mindig bekapcsolt
+63=Alkalmazás hozzáadása a szerkesztõk listájára, ha a felhasználó megnyomja rajta az F4-et
+64=Ha a felhasználó elkezd szerkeszteni egy EXE-fájlt,/s;akkor az OpenFileTC megkérdezi, hogy hozzáadja-e/s;ezt az EXE-t a szerkesztõk listájához
+65=Honlap:
+
+
+[HotKeyUnit]    ; hot keys window
+0=Gyorsbillentyû
+1=Gyorsbillentyû beállítása a következõhöz: %ProgramName%
+2=Jelenlegi billentyû:
+3=Új billentyû:
+4=Ok
+5=Beállítások mentése és az ablak bezárása
+6=Mégse
+7=Ablak bezárása a módosítások mentése nélkül
+8=nincs
+9=Ezt a billentyût az OpenFileTC lefoglalja, nem használható
+10=Ezt a billentyût már a(z) %ProgramName% használja./s;Szeretnéd a billentyût eltávolítani az elõzõ programtól és beállítani ehhez: %CurrProgramName%?
+
+[ProgramSettingsUnit]    ; Window for settings of one selected executable
+0=%ProgramName% tulajdonságai
+1=Név:
+2=Elérési út:
+3=Parancssor minden kiterjesztéshez:
+5=Kérlek, nevezd meg az alkalmazást
+6=A program teljes elérési útja
+7=Fájl kiválasztása
+8=Megnyitási problémák megoldása
+9=Nincs probléma
+10=Nincs probléma több fájl megnyitásánál
+11=Csak az elsõ fájl küldése idézõjelek NÉLKÜL
+12=Az alkalmazásnak nem a teljes fájllistát küldi, hanem/s;csak az elsõ fájlt idézõjelek NÉLKÜL
+13=Csak az elsõ fájl küldése IDÉZÕJELEKKEL
+14=Az alkalmazásnak nem a teljes fájllistát küldi, hanem/s;csak az elsõ fájlt IDÉZÕJELEKKEL
+15=Minden fájlhoz elindítja az alkalmazást, fájlnév IDÉZÕJELEKKEL
+16=Többször elindítja az alkalmazást,/s;minden másolat csak egy fájlt kap a listáról parancssori paraméterként./s;FIGYELEM: ebben az esetben az OpenFileTC nem fogja követni a programokat. /s; IDÉZÕJELEKKEL
+17=Kiterjesztések...
+18=Kiterjesztéslista összeállítása az alkalmazáshoz
+19=Ok
+20=Beállítások mentése és az ablak bezárása
+21=Mégse
+22=Ablak bezárása a változások mentése nélkül
+23=Minden fájlhoz elindítja az alkalmazást, fájlnév idézõjelek NÉLKÜL
+24=Többször elindítja az alkalmazást,/s;minden másolat csak egy fájlt kap a listáról parancssori paraméterként./s;FIGYELEM: ebben az esetben az OpenFileTC nem fogja követni a programokat. /s; idézõjelek NÉLKÜL
+25=Kattints a képre más/s;forrásfájl választásához
+26=Ikonfájl kiválasztása
+27=Fájl mentése...
+4=Az OpenFileTC nem talált futtatható állományt a megadott néven/s;Kérem vizsgálja meg a beírt útvonalat
+28=Gyorsbillentyû...
+29=Egy gyorsbillentyû beállítása, mely kiválasztja/s;az alkalmazást az OpenFileTC ablakán belül
+30=Parancssor kombinálása
+31=Rakd ide az alkalmazás parancssorát minden kiterjesztéshez
+32=Ikon módosítása
+33=Ikon mentése fájlbe...
+34=Ablak mutatása ha megnyílt (nem garantált, hogy mûködik):
+35=Alapértelmezett
+36=Ablakban
+37=Kis méretben
+38=Teljes képernyõn
+39=Minden új kiterjesztés megnyitása ebben a egyenesen szerkesztõben
+40=Ha az OpenFileTC nem talál szerkesztõt/s;ehhez egy fájlhoz valamilyen kiteresztéssel, akkor a fájlt/s;ezzel a szerkesztõvel nyitja meg
+
+[FoundClipUnit]    ; all strings are new
+0=Vágólap található
+1=Az információ ID-je a vágólapon: %BufferID%
+2=Elõre meghatározott típusok:
+3=Figyelem: ismeretlen információ található a vágólapon. Kérem, próbálja meg felismerni a vágólap információtípusát. Használja a felugró listát fent a típus felismeréséhez.
+4=Felismerés automatikusan
+5=Próbálja meg felismerni az adattípust automatikusan (nem ajánlott)
+6=Kiválasztás
+7=Az adattípus sikeresen felismerve
+8=Nem található
+9=Az adattípus nem felismerhetõ
+10=Szöveg ( ANSI )
+11=Szöveg ( OEM )
+12=Szöveg ( UNICODE )
+13=Kép ( BMP )
+14=Kép ( JPG )
+15=Kép ( TIFF )
+16=Metafájl
+17=Ismeretlen blokk

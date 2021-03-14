@@ -1,0 +1,8 @@
+l links.deniro.de
+a https://www.amazon.de/
+g https://www.google.de/
+s https://app.simplenote.com/
+la javascript:(%0A%09%09%09function()%7B%0A%09%09%09%09var%20url%20=%20location.href;%0A%09%09%09%09var%20title%20=%20document.title%20%7C%7C%20url;%0A%09%09%09%09window.open(%0A%09%09%09%09%09'http://links.deniro.de/?post='%20+%20encodeURIComponent(url)+%0A%09%09%09%09%09'&title='%20+%20encodeURIComponent(title)+%0A%09%09%09%09%09'&description='%20+%20encodeURIComponent(document.getSelection())+%0A%09%09%09%09%09'&source=bookmarklet','_blank','menubar=no,height=390,width=600,toolbar=no,scrollbars=no,status=no,dialog=1'%0A%09%09%09%09);%0A%09%09%09%7D%0A%09%09)();
+sz https://www.sueddeutsche.de/
+r https://www.reddit.com/
+n https://www.heise.de/newsticker/

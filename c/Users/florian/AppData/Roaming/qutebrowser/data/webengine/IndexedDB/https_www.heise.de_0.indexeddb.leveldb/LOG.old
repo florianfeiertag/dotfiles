@@ -1,0 +1,8 @@
+2021/02/10-09:02:21.559 3568 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.heise.de_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/10-09:02:21.560 3568 Recovering log #58
+2021/02/10-09:02:21.560 3568 Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.heise.de_0.indexeddb.leveldb/000058.log 
+2021/02/10-09:02:33.513 2ec Level-0 table #62: started
+2021/02/10-09:02:33.513 2ec Level-0 table #62: 0 bytes OK
+2021/02/10-09:02:33.515 2ec Delete type=0 #58
+2021/02/10-09:02:33.515 2ec Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/10-09:02:33.515 2ec Manual compaction at level-1 from (begin) .. (end); will stop at (end)

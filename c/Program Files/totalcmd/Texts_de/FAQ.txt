@@ -1,0 +1,82 @@
+Open File shell for TC, v1.8a
+Frequently Asked Questions.
+
+Copyright © Antoon_Inc company, 2004-2008. Alle Rechte vorbehalten.
+
+Hier die Fragen, die meiner Meinung nach während der Arbeit mit der Open File
+Shell für TC auftauchen können. Ich hoffe, diese Liste hilft Dir, zu verstehen,
+wie die Anwendung funktioniert.
+
+F. Ich will eine ausführbare Datei bearbeiten, aber OpenFileTC fragt mich immer
+   - willst du diese ausführbare Datei zur Editor-Liste hinzufügen? Wie kann ich
+   diese Option deaktivieren? Und wofür wurde sie gemacht?
+A. Diese Option wurde aus Benutzerfreundlichkeit gemacht. Jetzt kannst du einen
+   Editor nicht nur über das OpenFileTC-Interface hinzufügen (Eintrag "Weitere
+   Programme..."), sondern auch über den Total Commander.
+   Du musst bei dem neuen Editor nur F4 drücken und OpenFileTC wird nachfragen,
+   ob dieser Editor der gemeinsamen Liste hinzugefügt werden soll.
+   Willst du diese Option deaktivieren, musst du das Einstellungsfenster von
+   OpenFileTC öffnen, dort den Abschnitt "Tuning" wählen und das Schaltfeld
+   "Add executable to the list of editors if user press F4 on it" deaktivieren.
+
+F. Wie öffnet man zwangsweise OpenFileTC?
+A. Zu diesem Zweck ist es notwendig, die Rollen-Taste (Scroll Lock)
+   einzuschalten.
+
+F. Wie zwinge ich OpenFileTC, den vollen Pfad zu einer Total Commander INI-Datei
+   zu prüfen?
+A. Dazu ist es notwendig, die Anwendung zwangsweise mit eingeschaltetem Scroll
+   Lock zu starten. Eine kleine Bedingung: vor dem Start der Anwendung sollte
+   Total Commander geöffnet sein.
+
+F. Wie öffne ich einige Textdateien im notwendigen Editor?
+A. Dazu muß man diese Dateien markieren und F4 drücken.
+
+F. Wie öffne ich eine Datei im einen Editor und eine andere im anderen?
+A. Unglücklicherweise wird in vorliegender Version so eine Variante nicht
+   verarbeitet. Du musst jede Datei einzeln an den jeweiligen Editor senden.
+
+F. Wie teile ich OpenFileTC zwischen Nutzern auf?
+A. Im Abschnitt Tuning befindet sich ein Schalter, der dafür zuständig ist.
+
+F. Welche Umgebungsvariablen versteht das Programm?
+A. OpenFileTC versteht folgende Umgebungsvariablen: COMMANDER_PATH, WinDir,
+   ProgramFiles. In einer INI-Datei des Programms korrespondieren diese Parameter
+   bezüglich folgender Tags: %COMMANDER_PATH%, %WinDir%, %ProgramFiles%.
+   Diese Tags können innerhalb jedem Schlüssel mit Dateipfaden verwendet werden.
+
+F. Wenn ich %COMMANDER_PATH% in meiner Befehlszeile des Programms benutze,
+   startet das Programm manchmal nicht. Was ist der Grund dafür?
+A. Das kann passieren, wenn Du OpenFileTC nicht unter Total Commander
+   startest.
+   Überprüfe auch, ob es die richtige Umgebungsvariable für den "Total
+   Commander"-Prozess ist. Zum Beispiel kannst Du das Plugin envvar.wfx dazu
+   nutzen. Gibt es keine COMMANDER_PATH-Variable, dann erzeuge sie selbst und
+   setze den vollen Pfad zur Datei totalcmd.exe. Beispielsweise kann das
+   C:\TotalCmd sein (ohne Slash am Ende!).
+
+F. Wie weise ich Dateien ohne Erweiterung einem Editor zu?
+A. Du musst die Erweiterung %nil% zur Liste der von dieser ausführbaren Datei
+   unterstützten Erweiterungen hinzufügen.
+
+F. Wennn ich eine Datei mit OpenFileTC öffne, gibt das Programm aus: Kann
+   diese Datei nicht öffnen. Oder manchmal öffnet das Programm nur die erste
+   Datei der Liste der markierten Dateien. Was ist da los?
+A. Kann sein, dass diese Anwendung die Dateien ohne Anführungszeichen drumrum
+   erwartet.
+   Oder das Programm erlaubt, nur eine Datei auf einmal zu editieren. Versuche,
+   ein bisschen herumzuexperimentieren. Versuche zum Beispiel die zweite oder
+   vierte Variante in den Einstellungen zu wählen.
+
+F. Wie zeige ich die Hinweise nahe der Maus, nicht in der Ecke des Fensters von
+   OpenFileTC?
+A. Du musst die Checkbox Zeige ToolTips nahe der Maus im Einstellungsfenster von
+   OpenFileTC aktivieren.
+
+F. Wenn ich mit OpenFileTC einen Editor öffne, ist bereits ein Prozess
+   OpenFileTC.exe in der Prozessliste. Ist das ein Bug?
+A. Das ist kein Bug, aber Du kannst folgendes machen. Aktiviere die Checkbox
+   Nicht nach ausführbaren Dateien suchen im Einstellungsfenster von OpenFileTC.
+   Dann hört OpenFileTC auf, nach ausführbaren Dateien zu fahnden. Öffnest Du
+   dann aber eine Datei aus einem Archiv heraus, musst Du das Archiv manuell
+   neupacken.

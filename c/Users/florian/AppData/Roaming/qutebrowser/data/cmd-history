@@ -1,0 +1,100 @@
+:open g kinderfahrradfinder
+:open g canyon
+:open canyon
+:open g canyon kids
+:open cube kinderrad
+:open g woom 4
+:quickmark-load g
+:quickmark-load la
+:open fahrradzukunft.de
+:quickmark-load la
+:quickmark-load g
+:open https://www.goldsprintshop.com/Lenkertaschen
+:open ortlieb.de
+:quickmark-load g
+:open dkb.de
+:open g windows m4b
+:open g audiobookbuilder
+:open https://github.com/qutebrowser/qutebrowser
+:ver
+:version
+:debug-console
+:version
+:help
+:open qute://settings/
+/start
+:open qutebrowser startup
+:quickmark-load r
+:open kinderundzimmer.de
+:quickmark-load l
+:open https://www.goldsprintshop.com/Satteltaschen
+:quickmark-load l
+:open g qutebrowser crash after suspend
+:open g der überfall zdf film
+:open -t g stephan lacant
+:quickmark-load sz
+:open g qutebrowser pass
+:open -t https://i.imgur.com/KN3XuZP.gif
+:open -t g dmenu windows
+:open g keypirinha vs powertoys
+:open -t https://qutebrowser.org
+:open https://www.reddit.com/
+:reload
+:quickmark-load l
+:quickmark-load sz
+:quickmark-load l
+:open pping
+:open -t g new kids on the block
+:open bergfreunde.de
+:open https://www.goldsprintshop.com
+:open g kette reinigen
+:open https://ze-robot.com/
+:quickmark-load r
+:open -t g aleksander jablonoski
+:open skatedeluxe.com
+:open g independent 8.125 achsen
+:open https://www.heise.de/newsticker/
+:quickmark-save
+:quickmark-load n
+:reload
+:open g vodafone kabelinternet langsam
+:open -t g speedtest
+:open vodfone.de
+:open vodafone.de
+:open unsplash.com
+:open https://ze-robot.com/tag/reddit-wallpapers/
+:open g chromatic wallpaper
+:open -t g instagram download
+:quickmark-load r
+:open g pywal windows
+:open 9gag.com
+:open g matterhorn aesthetics
+:open g annapurna wallpaper
+:open g bing wallpapers
+:quickmark-load r
+:open -t w maurice herzog
+:open amazon.de
+:open booklooker.de
+:quickmark-load r
+:quickmark-load la
+:open g vim fu
+:quickmark-load n
+:open g dotfiles
+:open -t g raner make dir
+:open -t https://www.reddit.com/
+:open https://www.ebay-kleinanzeigen.de/m-einloggen.html
+:open -t g ranger select all
+:open granger yank name
+:quickmark-load l
+:open -t https://nickjanetakis.com/
+/clipboard
+:open -t g vcxsrv
+:open -t https://github.com/nickjj/dotfiles
+:open g vcxsrv export DSPLAY
+:open g ranger start editor
+:quickmark-load l
+:open g iosevka
+:open g firamono
+:quickmark-load l
+:open g meslo nf
+:open g powerlevel0k

@@ -1,0 +1,15 @@
+2021/02/28-19:44:03.498 19a0 Reusing MANIFEST C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.barbarianmeetscoding.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/28-19:44:03.499 19a0 Recovering log #11
+2021/02/28-19:44:03.499 19a0 Reusing old log C:\Users\Florian\AppData\Roaming\qutebrowser\data\webengine\IndexedDB\https_www.barbarianmeetscoding.com_0.indexeddb.leveldb/000011.log 
+2021/02/28-19:44:37.089 2b7c Level-0 table #16: started
+2021/02/28-19:44:37.091 2b7c Level-0 table #16: 7513 bytes OK
+2021/02/28-19:44:37.093 2b7c Delete type=0 #11
+2021/02/28-19:44:37.093 2b7c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/28-19:44:37.093 2b7c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x10\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00w\x00i\x00k\x00i\x00/' @ 625 : 1
+2021/02/28-19:44:37.093 2b7c Compacting 1@1 + 1@2 files
+2021/02/28-19:44:37.095 2b7c Generated table #17@1: 67 keys, 2752 bytes
+2021/02/28-19:44:37.095 2b7c Compacted 1@1 + 1@2 files => 2752 bytes
+2021/02/28-19:44:37.095 2b7c compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/28-19:44:37.095 2b7c Delete type=2 #13
+2021/02/28-19:44:37.095 2b7c Delete type=2 #16
+2021/02/28-19:44:37.096 2b7c Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x10\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00w\x00i\x00k\x00i\x00/' @ 625 : 1 .. (end); will stop at (end)
