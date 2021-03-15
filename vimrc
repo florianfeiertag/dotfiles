@@ -17,7 +17,7 @@ nnoremap <Space> <nop>
 let mapleader = " "
 nnoremap <Leader>w :w<CR>
 
-"j.vimrc
+".vimrc
 nnoremap <Leader>ve :e $MYVIMRC<CR>
 nnoremap <Leader>vr :source $MYVIMRC<CR>
 
@@ -27,6 +27,39 @@ map <down> <nop>
 map <left> <nop>
 map <right> <nop>
 syntax on
+
+"---------------------
+" Basic editing config
+"---------------------
+set shortmess+=I " disable startup message
+set incsearch " incremental search (as string is being typed)
+set hls " highlight search
+set listchars=tab:>>,nbsp:~ " set list to see tabs and non-breakable spaces
+set lbr " line break
+set scrolloff=5 " show lines above and below cursor (when possible)
+set noshowmode " hide mode
+set laststatus=2
+set backspace=indent,eol,start " allow backspacing over everything
+set timeout timeoutlen=1000 ttimeoutlen=100 " fix slow O inserts
+set lazyredraw " skip redrawing screen in some cases
+set autochdir " automatically set current directory to directory of last opened file
+set hidden " allow auto-hiding of edited buffers
+set history=8192 " more history
+set nojoinspaces " suppress inserting two spaces between sentences
+" use 4 spaces instead of tabs during formatting
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+" smart case-sensitive search
+set ignorecase
+set smartcase
+
+"Move visually selected lines up or down in various modes
+nnoremap K :m .-2<CR>==
+nnoremap J :m .+1<CR>==
+vnoremap K :m '<-2<CR>gv=gv
+vnoremap J :m '>+1<CR>gv=gv
 
 " Nummern
 highlight CursorLineNr ctermfg=226
