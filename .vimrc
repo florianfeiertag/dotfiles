@@ -91,3 +91,6 @@ if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
   source ~/.vimrc_background
 endif
+
+" save read-only files
+command -nargs=0 sudow w !sudo tee % >/dev/null
