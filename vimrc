@@ -126,4 +126,4 @@ if filereadable(expand("~/.vimrc_background"))
 endif
 
 " save read-only files
-command -nargs=0 sudow w !sudo tee % >/dev/null
+command -nargs=0 Sudow w !sudo tee % >/dev/null
