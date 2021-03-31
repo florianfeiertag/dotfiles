@@ -1,20 +1,5 @@
 #SingleInstance force
-;<#!l::
-;{
- ;DetectHiddenWindows,OFF
- ;WinGet windows, List
- ;Loop %windows%
- ;{
-  ;id := windows%A_Index%
-  ;WinGetTitle wt, ahk_id %id%
-  ;WinGetPos x,y,width,height,%wt%
-  ;if(wt)
-   ;r .= wt . " x:" . x . " y: " . y . " width:" . width . " height:" . height . "`n"
- ;}
- ;MsgBox %r%
-;}
-
-;WinMove, WinTitle, WinText, X, Y , Width, Height, ExcludeTitle, ExcludeText
+#NoTrayIcon
 
 ;Left
 ^#h::

@@ -1,4 +1,5 @@
 #SingleInstance force
+#NoTrayIcon
 
 flag = 1
 Loop
