@@ -68,6 +68,8 @@ if !WinExist("ahk_exe Vectorworks2021.exe")
 	return
 }
 GroupActivate, vectorworks, r
+WinSet, Style, -0xC00000, Vectorworks
+WinActivate, Vectorworks
 return
 
 ; Excel
