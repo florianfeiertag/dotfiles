@@ -9,11 +9,16 @@ GroupAdd, mail, ahk_class rctrl_renwnd32
 GroupAdd, vectorworks, ahk_exe Vectorworks2021.exe
 GroupAdd, pdf, ahk_exe PDFXEdit.exe
 GroupAdd, thunderbird, ahk_exe thunderbird.exe
+GroupAdd, term, ahk_exe mintty.exe
 return
 
 ;;; End of autoexecute section ;;;
 
 ;;; Windows Shortcuts ;;;;;;;;;;;;
+
+; disable Feedback-Hub
+<#!f::
+return
 
 ; Always on top
 ^!+t::
@@ -146,7 +151,7 @@ return
 <#1::
 if !WinExist("ahk_exe i_view64.exe")
 {
-	Run "c:\Users\Feiertag\bin\IrfanView\i_view64_ohne.bat"
+	Run "c:\Program Files\IrfanView\i_view64.exe" /hide=5
 	WinWait, ahk_exe i_view64.exe 
 	WinActivate, ahk_exe i_view64.exe
 	return
@@ -198,7 +203,7 @@ IfWinActive, ahk_exe qutebrowser.exe
 
 ; Terminal for Todo.txt
 <#t::
-IfWinExist, todo
+if WinExist("todo")
 {
     WinActivate
     return
@@ -210,18 +215,38 @@ else
     return
 }
 
-;<#t::
-;if WinExist("todo")
-;{
-    ;WinActivate
-    ;return
-;}
-;else
-;{
-    ;Run "c:\Users\Feiertag\msys2\todo.cmd" "-msys"
-    ;WinWait, todo
-    ;WinMove, todo,,473,180,974,547
-    ;WinActivate, todo
-    ;return
-;}
+; scratchpad
+<#s::
+IfWinExist, scratchpad
+{
+	WinActivate
+	return
+}
+else
+{
+	Run "c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -command "& c:\Users\Florian\bin\scratchpad.ps1",,,scratchpadPID
+	WinActivate, scratchpad
+	return
+}
 
+; First Terminal & switching
+<#Enter::
+if !WinExist("ahk_exe mintty.exe")
+{
+	Run  "c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -command "c:\Users\Florian\bin\terminal.ps1"
+	WinMove, ahk_exe mintty.exe,,10,10,945,1060
+    return
+}
+if WinActive("ahk_exe mintty.exe")
+{
+    GroupActivate, term, r
+    return
+}
+WinActivate
+return
+
+; open new terminal
+<+#Enter::
+Run  "c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -command "c:\Users\Florian\bin\terminal.ps1"
+WinMove, ahk_exe mintty.exe,,10,10,945,1060
+return
