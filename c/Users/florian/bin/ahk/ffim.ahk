@@ -19,6 +19,8 @@ return
 ; disable Feedback-Hub
 <#!f::
 return
+<#f::
+return
 
 ; Always on top
 ^!+t::
