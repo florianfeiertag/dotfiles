@@ -205,17 +205,17 @@ return
 
 
 <#s::
-if WinExist("C:\Users\Feiertag\_scratchpad - Notepad++")
+if WinExist, ahk_exe gvim.exe
 {
 	WinActivate
 	return
 }
 else
 {
-	Run "c:\Users\Feiertag\bin\npp\notepad++.exe" "c:\Users\feiertag\_scratchpad"
-	WinWait, ahk_exe notepad++.exe
-	WinMove, ahk_exe notepad++.exe,,633,90,654,907
-	WinActivate, ahk_exe notepad++.exe
+	Run "c:\Users\Feiertag\bin\Vim\vim82\gvim.exe" "c:\Users\feiertag\_scratchpad"
+	WinWait, ahk_exe gvim.exe
+	WinMove, ahk_exe gvim.exe,,633,90,654,907
+	WinActivate, ahk_exe gvim.exe
 	return
 }
 
@@ -278,20 +278,19 @@ return
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;### calc ###
-;#.::
-;IfWinExist ahk_exe calc.exe
-;{
-;	WinActivate
-;	return
-;}
-;else
-;{
-;	Sleep, 100
-;	Run c:\Windows\System32\calc.exe
-;	WinWait, ahk_exe calc.exe 
-;	WinMove, ahk_exe calc.exe,,1496,760,417,313
-;	return
-;}
+#.::
+IfWinExist Rechner
+{
+	WinActivate
+	return
+}
+else
+{
+	Run c:\Windows\System32\calc.exe
+;	WinWait Rechner
+;	WinMove Rechner,,1276,545,641,532
+	return
+}
 
 ;<#w::
 ;IfWinNotExist, ahk_exe WINWORD.EXE
