@@ -81,8 +81,16 @@ return
 
 ; Excel
 <#x::
-GroupActivate, excel, r
-return
+if WinExist("ahk_exe EXCEL.EXE")
+{
+    GroupActivate, excel, r
+    return
+}
+else
+{
+    MsgBox,0,Excel,No Excel running...,5
+    return
+}
 
 ; Word 
 <#w::
@@ -252,3 +260,20 @@ return
 Run  "c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -command "c:\Users\Florian\bin\terminal.ps1"
 WinMove, ahk_exe mintty.exe,,10,10,945,1060
 return
+
+; open GVIM
+~v & Enter::
+;GetKeyState, state, #
+;if state = D
+IfWinExist, ahk_exe gvim.exe
+{
+    WinActivate
+    return
+}
+else
+{
+    Run "c:\Users\Florian\bin\gvim\vim82\gvim.exe"
+    WinWait, ahk_exe gvim.exe
+    WinMove, ahk_exe gvim.exe,,10,10,945,1060
+    return
+}
