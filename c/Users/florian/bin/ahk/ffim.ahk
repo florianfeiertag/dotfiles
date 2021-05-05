@@ -171,19 +171,30 @@ return
 
 ; Calculator
 #.::
-IfWinExist, ahk_exe calc1.exe 
+if !WinExist("ahk_exe speedcrunch.exe")
 {
-	WinActivate
-	return
+    Run "c:\Users\Florian\bin\speedcrunch\speedcrunch.exe")
+    WinWait, ahk_exe speedcrunch.exe
+    WinMove, ahk_exe speedcrunch.exe,,1283,545,627,525
+    WinActivate, ahk_exe speedcrunch.exe
+    return
 }
-else
-{
-	Sleep, 100
-	Run c:\Windows\System32\calc1.exe
-	WinWait, ahk_exe calc1.exe 
-	WinMove, ahk_exe calc1.exe,,1492,753,417,317
-	return
-}
+WinActivate
+return
+
+;IfWinExist, ahk_exe calc1.exe 
+;{
+	;WinActivate
+	;return
+;}
+;else
+;{
+	;Sleep, 100
+	;Run c:\Windows\System32\calc1.exe
+	;WinWait, ahk_exe calc1.exe 
+	;WinMove, ahk_exe calc1.exe,,1492,753,417,317
+	;return
+;}
 
 <#b::
 IfWinNotExist, ahk_exe qutebrowser.exe
