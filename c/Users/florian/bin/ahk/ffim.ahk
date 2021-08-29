@@ -196,21 +196,45 @@ return
 	;return
 ;}
 
+;<#b::
+;IfWinNotExist, ahk_exe qutebrowser.exe
+;{
+    ;Run "c:\Program Files\qutebrowser\qutebrowser.exe"
+    ;WinWait, ahk_exe qutebrowser.exe
+    ;WinMove, ahk_exe qutebrowser.exe,,10,10,1900,1060
+    ;WinSet, Style, -0xC00000, ahk_exe qutebrowser.exe
+    ;WinActivate, ahk_exe qutebrowser.exe
+    ;return
+;}
+;else
+;{
+;IfWinActive, ahk_exe qutebrowser.exe
+    ;{
+        ;Send, +J
+        ;return
+    ;}
+    ;else
+    ;{
+        ;WinActivate
+        ;return
+    ;}
+;}
+
 <#b::
-IfWinNotExist, ahk_exe qutebrowser.exe
+IfWinNotExist, ahk_exe brave.exe
 {
-	Run "c:\Program Files\qutebrowser\qutebrowser.exe"
-	WinWait, ahk_exe qutebrowser.exe
-	WinMove, ahk_exe qutebrowser.exe,,10,10,1900,1060
-	WinSet, Style, -0xC00000, ahk_exe qutebrowser.exe
+	Run "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
+	WinWait, ahk_exe brave.exe
+	WinMove, ahk_exe brave.exe,,10,10,1900,1060
+	;WinSet, Style, -0xC00000, ahk_exe qutebrowser.exe
 	WinActivate, ahk_exe qutebrowser.exe
 	return
 }
 else
 {
-IfWinActive, ahk_exe qutebrowser.exe
+IfWinActive, ahk_exe brave.exe
 	{
-		Send, +J
+		Send, ^{Tab} 
 		return
 	}
 	else
@@ -267,7 +291,7 @@ WinActivate
 return
 
 ; open new terminal
-<+#Enter::
+<#+Enter::
 Run  "c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -command "c:\Users\Florian\bin\terminal.ps1"
 WinMove, ahk_exe mintty.exe,,10,10,945,1060
 return
