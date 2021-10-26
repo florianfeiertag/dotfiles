@@ -47,7 +47,7 @@ rclone
 openwithvim_totalcmd.ps1  
 scratchpad.ps1  
 terminal.ps1  
-todo.ps1  
+todo.ps1 (alias t='ssh -qt ff@lau todo.sh') 
   
 # vim  
 gvim  
@@ -58,3 +58,9 @@ regedit border (https://www.howtogeek.com/130138/how-to-change-the-window-border
 # PATH  
 sysdm.cpl  
 "Umgebungsvariablen für Konto bearbeiten"  
+
+# git for Windows / Shell
+zsh
+zim (and through that powerlevel10k)
+base16-shell
+.aliases
