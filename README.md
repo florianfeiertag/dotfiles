@@ -60,7 +60,7 @@ sysdm.cpl
 "Umgebungsvariablen für Konto bearbeiten"  
 
 # git for Windows / Shell
-zsh
-zim (and through that powerlevel10k)
-base16-shell
-.aliases
+zsh  
+zim (and through that powerlevel10k)  
+base16-shell  
+.aliases  
