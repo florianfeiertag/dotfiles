@@ -227,7 +227,7 @@ IfWinNotExist, ahk_exe brave.exe
 	WinWait, ahk_exe brave.exe
 	WinMove, ahk_exe brave.exe,,10,10,1900,1060
 	;WinSet, Style, -0xC00000, ahk_exe qutebrowser.exe
-	WinActivate, ahk_exe qutebrowser.exe
+	WinActivate, ahk_exe brave.exe
 	return
 }
 else

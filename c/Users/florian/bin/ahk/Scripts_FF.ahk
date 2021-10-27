@@ -386,15 +386,19 @@ CapsLock::^q
 ;	Return
 
 <#t::
-IfWinExist, todo
+if WinExist("ahk_pid todo")
 {
-	WinActivate
+    WinActivate
+	;GroupActivate, todo, R
 	return
 }
 else
 {
-	Run "c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -command "& c:\Users\Florian\bin\todo.ps1",,,todoPID
-	WinActivate, todo
+	Run, "c:\Users\Florian\msys2\todo.cmd" "-msys",,,todo
+    WinWait ahk_pid todo
+    WinActivate ahk_pid todo
+	;GroupAdd, todo, ahk_exe mintty.exe
+	;GroupActivate, todo, R
 	return
 }
 
