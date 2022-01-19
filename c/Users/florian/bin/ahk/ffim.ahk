@@ -51,7 +51,7 @@ Send ^q
 return
 
 ; Insert date in format YYYY-MM-DD
-#!d::
+#+d::
 FormatTime, CurrentDate,, yyyy-MM-dd
 SendInput %CurrentDate%
 return
@@ -121,7 +121,7 @@ return
 <#c::
 Run c:\Program Files\totalcmd\TOTALCMD64.EXE
 WinWait, ahk_exe TOTALCMD64.EXE
-WinMove, ahk_exe TOTALCMD64.EXE,,10,10,1900,1060
+WinMove, ahk_exe TOTALCMD64.EXE,,3,10,1914,1067
 WinSet, Style, -0xC00000, ahk_exe TOTALCMD64.EXE
 WinActivate, ahk_exe TOTALCMD64.EXE
 return
@@ -175,7 +175,7 @@ if !WinExist("ahk_exe speedcrunch.exe")
 {
     Run "c:\Users\Florian\bin\speedcrunch\speedcrunch.exe")
     WinWait, ahk_exe speedcrunch.exe
-    WinMove, ahk_exe speedcrunch.exe,,1283,545,627,525
+    WinMove, ahk_exe speedcrunch.exe,,1276,545,641,532
     WinActivate, ahk_exe speedcrunch.exe
     return
 }
@@ -225,7 +225,7 @@ IfWinNotExist, ahk_exe brave.exe
 {
 	Run "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
 	WinWait, ahk_exe brave.exe
-	WinMove, ahk_exe brave.exe,,10,10,1900,1060
+	WinMove, ahk_exe brave.exe,,3,10,1914,1067
 	;WinSet, Style, -0xC00000, ahk_exe qutebrowser.exe
 	WinActivate, ahk_exe brave.exe
 	return
